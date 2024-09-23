@@ -31,7 +31,6 @@
 	.category-card:hover {
 		transform: scale(1.15);
 		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-		color: rgba(0, 123, 255, 1);
 	}
 	.category-icon {
 		font-size: 3rem;
@@ -77,7 +76,7 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<div class="ms-auto">
 				<form class="d-flex" role="search">
-					<input class="form-control me-2" type="search" placeholder="Kitap Ara" aria-label="Search">
+					<input class="form-control me-2" type="search" placeholder="Kitap \ Yazar Ara" aria-label="Search">
 					<button class="btn btn-outline-success" type="submit">Ara</button>
 				</form>
 			</div>
@@ -92,43 +91,44 @@
 		<h2 class="text-center mb-4">Kategoriler</h2>
 		<div class="row">
 			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3">
+				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
 					<i class="fas fa-book category-icon"></i>
 					<h5 class="category-title">Roman</h5>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3">
+				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
 					<i class="fas fa-flask category-icon"></i>
 					<h5 class="category-title">Bilim</h5>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3">
+				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
 					<i class="fas fa-landmark category-icon"></i>
 					<h5 class="category-title">Tarih</h5>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3">
+				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
 					<i class="fas fa-brain category-icon"></i>
 					<h5 class="category-title">Felsefe</h5>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3">
+				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
 					<i class="fas fa-paint-brush category-icon"></i>
 					<h5 class="category-title">Sanat</h5>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3">
+				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
 					<i class="fas fa-child category-icon"></i>
 					<h5 class="category-title">Çocuk</h5>
 				</div>
 			</div>
 		</div>
 	</div>
+
 
 	<!-- Kitap Kartları -->
 	<div class="container mt-4">
@@ -140,7 +140,9 @@
 					<div class="card-body">
 						<h5 class="card-title">Kitap 1</h5>
 						<p class="card-text">Bu kitap hakkında kısa bir açıklama yer alacak.</p>
+						<p class="card-text">Kalan stok: 5</p>
 						<a href="#" class="btn btn-primary">Detaylar</a>
+
 					</div>
 				</div>
 			</div>
@@ -150,6 +152,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Kitap 2</h5>
 						<p class="card-text">Bu kitap hakkında kısa bir açıklama yer alacak.</p>
+						<p class="card-text">Kalan stok: 5</p>
 						<a href="#" class="btn btn-primary">Detaylar</a>
 					</div>
 				</div>
@@ -160,6 +163,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Kitap 3</h5>
 						<p class="card-text">Bu kitap hakkında kısa bir açıklama yer alacak.</p>
+						<p class="card-text">Kalan stok: 5</p>
 						<a href="#" class="btn btn-primary">Detaylar</a>
 					</div>
 				</div>
@@ -170,6 +174,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Kitap 4</h5>
 						<p class="card-text">Bu kitap hakkında kısa bir açıklama yer alacak.</p>
+						<p class="card-text">Kalan stok: 5</p>
 						<a href="#" class="btn btn-primary">Detaylar</a>
 					</div>
 				</div>
@@ -180,6 +185,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Kitap 5</h5>
 						<p class="card-text">Bu kitap hakkında kısa bir açıklama yer alacak.</p>
+						<p class="card-text">Kalan stok: 5</p>
 						<a href="#" class="btn btn-primary">Detaylar</a>
 					</div>
 				</div>
@@ -190,6 +196,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Kitap 6</h5>
 						<p class="card-text">Bu kitap hakkında kısa bir açıklama yer alacak.</p>
+						<p class="card-text">Kalan stok: 5</p>
 						<a href="#" class="btn btn-primary">Detaylar</a>
 					</div>
 				</div>
@@ -200,6 +207,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Kitap 7</h5>
 						<p class="card-text">Bu kitap hakkında kısa bir açıklama yer alacak.</p>
+						<p class="card-text">Kalan stok: 5</p>
 						<a href="#" class="btn btn-primary">Detaylar</a>
 					</div>
 				</div>
@@ -212,6 +220,17 @@
 <div class="footer-bar bg-dark text-light py-1">
 	<p>Emre Gündüz | Library</p>
 </div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+	function changeColor(element) {
+		const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+		element.style.color = randomColor;
+	}
+
+	function resetColor(element) {
+		element.style.color = 'white';
+	}
+</script>
 </body>
 </html>
