@@ -129,6 +129,7 @@
 		</div>
 	</div>
 
+	<g:link mapping="Giris">Giriş</g:link>
 
 	<!-- Kitap Kartları -->
 	<div class="container mt-4">
