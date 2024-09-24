@@ -1,8 +1,0 @@
-dataSource:
-  pooled: true
-  driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-  dialect: org.hibernate.dialect.SQLServerDialect
-  username:
-  password:
-  dbCreate: update
-  url: jdbc:sqlserver://localhost:8080;databaseName=Library
