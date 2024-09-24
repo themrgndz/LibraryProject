@@ -1,5 +1,5 @@
 class kitapController{
     def detay() {
-        
+
     }
 }

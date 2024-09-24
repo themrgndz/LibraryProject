@@ -27,8 +27,8 @@
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 50px;
         width: 50%;
-        backdrop-filter: blur(5px); /* Arka plan bulanıklığı */
-        padding: 20px; /* İç boşluk */
+        backdrop-filter: blur(5px);
+        padding: 20px;
     }
     </style>
 </head>

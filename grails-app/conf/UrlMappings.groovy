@@ -1,8 +1,8 @@
-
 class UrlMappings {
     static mappings = {
-        "/"(controller: "anasayfa", action: "index")
+        "/"(controller: 'anasayfa', action: 'girisIndex')
+        "/anasayfa"(controller: 'anasayfa',action: 'anasayfaIndex')
+        "/detay/$id"(controller: "kitap", action: "detay")
         "500"(view:'/error')
-        "404"(view:'/notFound')
     }
 }
