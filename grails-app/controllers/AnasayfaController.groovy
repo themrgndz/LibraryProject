@@ -1,0 +1,6 @@
+class AnasayfaController {
+    def index() {
+
+    }
+}
+

@@ -1,7 +1,7 @@
 class UrlMappings {
     static mappings = {
-        "/"(view: "index") // Ana sayfa
-        "500"(view:'/error') // Hata sayfası
-        "/giris"(controller: "giris", action: "giris")
+        "/"(controller: 'Giris', action: 'index')
+        "/anasayfa"(controller: 'Anasayfa',action: 'index')
+        "500"(view:'/error')
     }
 }
