@@ -1,5 +1,0 @@
-class GirisController {
-    def index() {
-
-    }
-}
