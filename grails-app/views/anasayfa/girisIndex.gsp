@@ -51,7 +51,7 @@
         <form>
             <div class="form-group">
                 <label for="userIdentifier">Kullanıcı Adı \ E-posta:</label>
-                <input type="text" class="form-control" id="userIdentifier" placeholder="Kullanıcı Adı \ E-posta:" required>
+                <input type="text" class="form-control" id="userIdentifier" placeholder="Kullanıcı Adı\E-posta:" required>
             </div>
             <div class="form-group">
                 <label for="userPassword">Şifre:</label>
@@ -70,7 +70,7 @@
         <form>
             <div class="form-group">
                 <label for="adminIdentifier">Kullanıcı Adı \ E-posta:</label>
-                <input type="text" class="form-control" id="adminIdentifier" placeholder="Kullanıcı Adı \ E-posta:" required>
+                <input type="text" class="form-control" id="adminIdentifier" placeholder="Kullanıcı Adı\E-posta:" required>
             </div>
             <div class="form-group">
                 <label for="adminPassword">Şifre:</label>

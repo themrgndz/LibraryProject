@@ -69,21 +69,35 @@
 <!-- Üst Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<div class="container-fluid">
-		<a class="navbar-brand d-flex align-items-center mx-3" href=".\anasayfa">Uzmar Library</a>
+		<!-- Sol tarafta marka adı -->
+		<a class="navbar-brand mx-3" href="./anasayfa">Uzmar Library</a>
+
+		<!-- Mobilde açılır menü butonu -->
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
+
+		<!-- Navbar içerikleri -->
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<div class="ms-auto">
-				<form class="d-flex" role="search">
-					<input class="form-control me-2" type="search" placeholder="Kitap \ Yazar Ara" aria-label="Search">
-					<button class="btn btn-outline-success" type="submit">Ara</button>
-				</form>
-			</div>
+			<!-- Orta kısımda arama çubuğu -->
+			<form class="d-flex ms-auto" role="search">
+				<input class="form-control me-2" type="search" placeholder="Kitap / Yazar Ara" aria-label="Search">
+				<button class="btn btn-outline-success" type="submit">Ara</button>
+			</form>
+
+			<!-- Sağ tarafta profil ve çıkış butonları -->
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a class="nav-link btn btn-outline-success mx-2" href="./profil">Profil</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link btn btn-outline-danger mx-2" href="./">Çıkış</a>
+				</li>
+			</ul>
 		</div>
-		<a class="navbar-brand d-flex align-items-center mx-5" href="./profil">Profil</a>
 	</div>
 </nav>
+
 
 <div class="container ana">
 	<!-- Kategoriler -->

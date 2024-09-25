@@ -1,0 +1,3 @@
+class YoneticiController{
+    def anasayfaIndex(){}
+}

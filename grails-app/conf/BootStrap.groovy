@@ -1,7 +1,9 @@
-class BootStrap {
 
+class BootStrap {
     def init = { servletContext ->
+
     }
+
     def destroy = {
     }
 }

@@ -94,8 +94,8 @@
                 <div class="book-cover-wrapper">
                     <img src="https://marketplace.canva.com/EAFQE7XNmsw/1/0/1003w/canva-lacivert-minimalist-kelebek-uç-kitap-kapağı-tpBdl9y5rlw.jpg" alt="Kitap Kapağı" class="book-cover">
                 </div>
-                <button class="btn btn-outline-danger mt-3 w-100">Favorilere Ekle</button>
-                <button class="btn  btn-outline-success mt-2 w-100">Ödünç Al</button>
+                <button class="btn btn-outline-warning mt-3 w-100">Favorilere Ekle</button>
+                <button class="btn btn-outline-success mt-2 w-100">Ödünç Al</button>
             </div>
 
             <!-- Kitap Bilgileri -->
