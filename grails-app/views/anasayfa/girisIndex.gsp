@@ -25,35 +25,42 @@
     }
     .giris {
         background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 50px;
-        width: 50%;
+        border-radius: 20px;
+        max-width: 550px;
+        width: 90%;
         backdrop-filter: blur(5px);
         padding: 20px;
+    }
+    @media (max-width: 576px) {
+        .giris {
+            padding: 15px;
+        }
     }
     </style>
 </head>
 <body>
-<div class="giris p-5">
+<div class="giris p-4">
     <h2 class="text-center">Giriş Yap</h2>
     <div class="text-center mb-4">
-        <button class="btn btn-outline-primary" id="userLoginBtn">Kullanıcı Girişi</button>
-        <button class="btn btn-outline-secondary" id="adminLoginBtn">Yönetici Girişi</button>
+        <button class="btn btn-outline-danger mx-2" id="userLoginBtn">Kullanıcı Girişi</button>
+        <button class="btn btn-outline-success mx-2" id="adminLoginBtn">Yönetici Girişi</button>
     </div>
 
     <div id="userLogin" class="form-container">
         <h4>Kullanıcı Girişi</h4>
         <form>
             <div class="form-group">
-                <label for="userIdentifier">Kullanıcı Adı veya E-posta:</label>
-                <input type="text" class="form-control" id="userIdentifier" placeholder="Kullanıcı adınızı veya e-posta adresinizi girin" required>
+                <label for="userIdentifier">Kullanıcı Adı \ E-posta:</label>
+                <input type="text" class="form-control" id="userIdentifier" placeholder="Kullanıcı Adı \ E-posta:" required>
             </div>
             <div class="form-group">
                 <label for="userPassword">Şifre:</label>
                 <input type="password" class="form-control" id="userPassword" placeholder="Şifrenizi girin" required>
             </div>
             <button type="submit" class="btn btn-primary">Giriş Yap</button>
-            <div class="mt-3">
-                <a href="#">Şifremi unuttum</a>
+            <div class="mt-3 row">
+                <a href="#" class="col">Şifremi unuttum</a>
+                <a href="#" class="col">Kayıt Ol</a>
             </div>
         </form>
     </div>
@@ -62,16 +69,17 @@
         <h4>Yönetici Girişi</h4>
         <form>
             <div class="form-group">
-                <label for="adminIdentifier">Kullanıcı Adı veya E-posta:</label>
-                <input type="text" class="form-control" id="adminIdentifier" placeholder="Kullanıcı adınızı veya e-posta adresinizi girin" required>
+                <label for="adminIdentifier">Kullanıcı Adı \ E-posta:</label>
+                <input type="text" class="form-control" id="adminIdentifier" placeholder="Kullanıcı Adı \ E-posta:" required>
             </div>
             <div class="form-group">
                 <label for="adminPassword">Şifre:</label>
                 <input type="password" class="form-control" id="adminPassword" placeholder="Şifrenizi girin" required>
             </div>
             <button type="submit" class="btn btn-primary">Giriş Yap</button>
-            <div class="mt-3">
-                <a href="#">Şifremi unuttum</a>
+            <div class="mt-3 row">
+                <a href="#" class="col">Şifremi unuttum</a>
+                <a href="#" class="col">Kayıt Ol</a>
             </div>
         </form>
     </div>

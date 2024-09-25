@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,7 +69,7 @@
 <!-- Üst Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<div class="container-fluid">
-		<a class="navbar-brand d-flex align-items-center mx-3" href="#">Uzmar Library</a>
+		<a class="navbar-brand d-flex align-items-center mx-3" href=".\anasayfa">Uzmar Library</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -81,7 +81,7 @@
 				</form>
 			</div>
 		</div>
-		<a class="navbar-brand d-flex align-items-center mx-5" href="#">Profil</a>
+		<a class="navbar-brand d-flex align-items-center mx-5" href="./profil">Profil</a>
 	</div>
 </nav>
 
