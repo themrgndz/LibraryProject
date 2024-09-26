@@ -47,6 +47,10 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.29'
         // runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
+        runtime 'com.microsoft.sqlserver:mssql-jdbc:9.4.1.jre8' // veya uygun bir sürüm
+
+        runtime 'net.sourceforge.jtds:jtds:1.3.1' // Check for the latest version
+
     }
 
     plugins {

@@ -6,5 +6,6 @@ class UrlMappings {
         "/detay/$id"(controller: "kitap", action: "detay")
         "/yonetici"(controller: 'yonetici',action: 'anasayfaIndex')
         "500"(view:'/error')
+        "/test"(controller: "anasayfa", action: "index")
     }
 }
