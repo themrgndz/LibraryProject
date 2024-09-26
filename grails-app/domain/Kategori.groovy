@@ -5,4 +5,5 @@ class Kategori {
     static constraints = {
         kategoriAdi nullable: false, blank: false, size: 1..100
     }
+
 }

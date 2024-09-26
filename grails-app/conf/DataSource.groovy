@@ -16,7 +16,7 @@ environments {
 
     development {
         dataSource {
-            dbCreate = "create" // one of 'create', 'create-drop', 'update', 'validate', ''		generateSimpleParameterMetadata = true
+            dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''		generateSimpleParameterMetadata = true
 
             username = "sa"
             password = "sa123"
