@@ -1,7 +1,8 @@
 class Rol {
-    String ad
-    static hasMany = [kullanicilar: Kullanici]
+    Long rolId
+    String rolAdi
+
     static constraints = {
-        ad blank: false, unique: true
+        rolAdi nullable: false, blank: false, unique: true
     }
 }

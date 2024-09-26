@@ -1,17 +1,18 @@
 class Kullanici {
-    String isim
-    String soyisim
+    Long kullaniciId
+    String ad
+    String soyad
     String kullaniciAdi
     String sifre
-    String email
+    String eposta
     String profilResmi
-    static hasMany = [rezervasyonlar: Rezervasyon]
+
     static constraints = {
-        isim blank: false
-        soyisim blank: false
-        kullaniciAdi blank: false, unique: true
-        sifre blank: false
-        email email: true, blank: false, unique: true
+        ad nullable: false, blank: false
+        soyad nullable: false, blank: false
+        kullaniciAdi nullable: false, blank: false, unique: true
+        sifre nullable: false, blank: false, password: true
+        eposta nullable: false, blank: false, email: true
         profilResmi nullable: true
     }
 }

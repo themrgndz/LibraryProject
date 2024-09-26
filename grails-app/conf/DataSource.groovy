@@ -3,7 +3,7 @@ dataSource {
     jmxExport = true
     driverClassName = "org.h2.Driver"
     username = "sa"
-    password = ""
+    password = "sa123"
 }
 hibernate {
     cache.use_second_level_cache = true

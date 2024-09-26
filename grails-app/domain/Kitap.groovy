@@ -1,31 +1,21 @@
 class Kitap {
-
-    String id
-    String ad
-    String yazar
-    String yayinEvi
+    Long kitapId
+    String baslik
+    Yazar yazar
+    Yayinci yayinci
     Integer yayinYili
     Integer sayfaSayisi
     String dil
-    String kategori
+    Kategori kategori
     String isbn
     Integer stokSayisi
-    String aciklama
-    String kapakResmi
 
-    static hasMany = [rezervasyonlar: Rezervasyon]
     static constraints = {
-        id blank: false, unique: true
-        ad blank: false
-        yazar blank: false
-        yayinEvi blank: false
-        yayinYili nullable: true
-        sayfaSayisi min: 1
-        dil blank: false
-        kategori blank: false
-        isbn blank: false, unique: true, matches: /^[0-9]{13}$/
-        stokSayisi min: 0
-        aciklama blank: false
-        kapakResmi blank: false
+        baslik nullable: false, blank: false, size: 1..200
+        yayinYili nullable: false, min: 1450 // matbaanın icadı sonrası
+        sayfaSayisi nullable: false, min: 1
+        dil nullable: false, blank: false
+        isbn nullable: false, blank: false, unique: true
+        stokSayisi nullable: false, min: 0
     }
 }

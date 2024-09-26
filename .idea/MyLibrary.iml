@@ -5,7 +5,6 @@
       <configuration>
         <datasource-map>
           <unit-entry name="Gorm" />
-          <unit-entry name="hibernate.cfg.xml" />
           <unit-entry name="target:work:plugins:hibernate4-4.3.10:src:java:hibernate.cfg.xml" />
         </datasource-map>
         <naming-strategy-map />

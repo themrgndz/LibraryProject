@@ -1,0 +1,5 @@
+Version:2
+y:8557:org/codehaus/groovy/grails/cli/support/GrailsStarter
+n:8005:org/codehaus/groovy/tools/LoaderConfiguration
+n:1545:org/codehaus/groovy/grails/cli/support/GrailsRootLoader
+n:4575:org/codehaus/groovy/tools/RootLoader
