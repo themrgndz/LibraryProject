@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title><g:if env="development">Grails Runtime Exception</g:if><g:else>Error</g:else></title>
-		<meta name="layout" content="main">
-		<g:if env="development"><asset:stylesheet src="errors.css"/></g:if>
-	</head>
-	<body>
-		<g:if env="development">
-			<g:renderException exception="${exception}" />
-		</g:if>
-		<g:else>
-			<ul class="errors">
-				<li>An error has occurred</li>
-			</ul>
-		</g:else>
-	</body>
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Error</title>
+</head>
+
+<body>
+<div>
+	<div>
+		<h1>Error</h1>
+	</div>
+</div>
+</body>
 </html>

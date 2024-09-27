@@ -66,26 +66,20 @@
     </style>
 </head>
 <body>
-<!-- Üst Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <!-- Sol tarafta marka adı -->
         <a class="navbar-brand mx-3" href="./anasayfa">Uzmar Library</a>
 
-        <!-- Mobilde açılır menü butonu -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Navbar içerikleri -->
         <div class="collapse navbar-collapse" id="navbarNav">
-            <!-- Orta kısımda arama çubuğu -->
             <form class="d-flex ms-auto" role="search">
                 <input class="form-control me-2" type="search" placeholder="Kitap / Yazar Ara" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Ara</button>
             </form>
 
-            <!-- Sağ tarafta profil ve çıkış butonları -->
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link btn btn-outline-success mx-2" href="./profil">Profil</a>
@@ -100,7 +94,6 @@
 
 
 <div class="container ana">
-    <!-- Kategoriler -->
     <div class="container mt-4 kategoriler">
         <h2 class="text-center mb-4">Kategoriler</h2>
         <div class="row">
@@ -143,7 +136,6 @@
         </div>
     </div>
 
-    <!-- Kitap Kartları -->
     <div class="container">
         <h2>Yeni Eklenenler</h2>
         <div class="row">
@@ -228,7 +220,6 @@
     </div>
 </div>
 
-<!-- Alt Bar -->
 <div class="footer-bar bg-dark text-light py-1">
     <p>Emre Gündüz | Library</p>
 </div>

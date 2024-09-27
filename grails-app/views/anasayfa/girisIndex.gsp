@@ -100,7 +100,6 @@
             $('#adminLogin').addClass('active');
         });
 
-        // Varsayılan olarak kullanıcı girişi gösterilir
         $('#userLogin').addClass('active');
     });
 </script>
