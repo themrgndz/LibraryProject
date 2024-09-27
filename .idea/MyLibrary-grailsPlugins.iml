@@ -13,6 +13,26 @@
           <root url="file://$MODULE_DIR$/target/work/plugins/jquery-1.11.1/web-app" relative="/" />
           <root url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/views" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/target/work/plugins/jquery-1.11.1/src/groovy" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/jquery-1.11.1/grails-app/services" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/jquery-1.11.1/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.1.2/src/java" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.1.2/src/groovy" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.8/src/java" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.8/src/groovy" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.8/grails-app/services" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.8/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/tomcat-7.0.70/src/java" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/webxml-1.4.1/src/groovy" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/hibernate4-4.3.10/src/java" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/services" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/taglib" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">

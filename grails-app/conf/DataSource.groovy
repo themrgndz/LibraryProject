@@ -8,22 +8,22 @@ hibernate {
     cache.use_second_level_cache = true
     cache.use_query_cache = false
     cache.region.factory_class = 'org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory'
-    singleSession = true // configure OSIV singleSession mode
-    flush.mode = 'manual' // OSIV session flush mode outside of transactional context
+    singleSession = true
+    flush.mode = 'manual'
 }
 
 environments {
 
     development {
         dataSource {
-            dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''		generateSimpleParameterMetadata = true
+            dbCreate = "update"
 
             username = "sa"
             password = "sa123"
 
 
-            url = "jdbc:jtds:sqlserver://localhost:1433/UzmLibrary"  //mssql
-            driverClassName = "net.sourceforge.jtds.jdbc.Driver" // mssql
+            url = "jdbc:jtds:sqlserver://localhost:1433/Library"
+            driverClassName = "net.sourceforge.jtds.jdbc.Driver"
             properties {
                 jmxEnabled = true
                 initialSize = 5
