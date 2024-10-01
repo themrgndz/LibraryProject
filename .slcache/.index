@@ -3728,3 +3728,17 @@ n:390:javax/annotation/PreDestroy
 n:483:grails/transaction/NotTransactional
 n:1295:org/springframework/validation/MapBindingResult
 n:429:grails/web/RequestParameter
+n:20802:org/codehaus/groovy/grails/plugins/web/filters/FilterConfig
+n:645:org/codehaus/groovy/runtime/dgm$294
+n:3536:org/codehaus/groovy/grails/plugins/web/filters/FiltersGrailsPlugin$__clinit__closure4$_closure5
+n:2441:org/codehaus/groovy/grails/plugins/web/filters/FiltersGrailsPlugin$__clinit__closure4$_closure6
+n:450:org/codehaus/groovy/runtime/ExceptionUtils
+y:12716:org/codehaus/groovy/runtime/MethodRankHelper
+n:445:org/codehaus/groovy/runtime/MethodRankHelper$NullObject
+n:1768:org/codehaus/groovy/runtime/MethodRankHelper$RankableMethod
+n:4430:org/apache/tools/ant/types/resources/StringResource
+y:2609:org/apache/tools/ant/taskdefs/optional/native2ascii/SunNative2Ascii
+n:2152:org/apache/tools/ant/taskdefs/optional/native2ascii/DefaultNative2Ascii
+n:7701:sun/tools/native2ascii/Main
+n:697:sun/tools/native2ascii/resources/MsgNative2ascii
+n:1243:sun/tools/native2ascii/N2AFilter

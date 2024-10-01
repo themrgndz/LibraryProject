@@ -8,5 +8,9 @@ class UrlMappings {
         "/admin"(controller: 'admin',action: 'admin')
         "500"(view:'/error')
         "/index"(controller: 'home',action: 'index')
+
+        "/api/books"(resources: 'book')
+        "/api/books/$id"(controller: 'book', action: [GET: 'show', PUT: 'update', DELETE: 'delete'])
+        "/api/books"(controller: 'book', action: [GET: 'index', POST: 'save'])
     }
 }

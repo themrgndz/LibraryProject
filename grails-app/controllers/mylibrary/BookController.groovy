@@ -1,16 +1,46 @@
 package mylibrary
 
 class BookController {
+    static responseFormats = ['json', 'xml']
 
-    def detail(Long id) {
-        def bookInstance = Book.get(id)
-        def similarBooks = Book.findAll("from Book as b where b.id != :id order by rand()", [id: id], [max: 4])
-        if (!bookInstance) {
-            flash.message = "Kitap bulunamadı"
-            redirect(action: "detail")
+    def index() {
+        respond Book.list()
+    }
+
+    def show(int id) {
+        respond Book.get(id)
+    }
+
+    def save() {
+        def book = new Book(request.JSON)
+        if (book.save(flush: true)) {
+            respond book, [status: 201]
         } else {
-            [bookInstance: bookInstance, similarBooks: similarBooks]
+            respond book.errors, [status: 400]
         }
     }
 
+    def update(int id) {
+        def book = Book.get(id)
+        if (book) {
+            book.properties = request.JSON
+            if (book.save(flush: true)) {
+                respond book
+            } else {
+                respond book.errors, [status: 400]
+            }
+        } else {
+            render status: 404
+        }
+    }
+
+    def delete(int id) {
+        def book = Book.get(id)
+        if (book) {
+            book.delete(flush: true)
+            render status: 204
+        } else {
+            render status: 404
+        }
+    }
 }
