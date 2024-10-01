@@ -17,33 +17,11 @@ environments {
     development {
         dataSource {
             dbCreate = "update"
-
             username = "sa"
             password = "sa123"
 
-
             url = "jdbc:jtds:sqlserver://localhost:1433/Library"
             driverClassName = "net.sourceforge.jtds.jdbc.Driver"
-            properties {
-                jmxEnabled = true
-                initialSize = 5
-                maxActive = 50
-                minIdle = 5
-                maxIdle = 25
-                maxWait = 10000
-                maxAge = 10 * 60000
-                timeBetweenEvictionRunsMillis = 5000
-                minEvictableIdleTimeMillis = 60000
-                validationQuery = "SELECT 1"
-                validationQueryTimeout = 3
-                validationInterval = 15000
-                testOnBorrow = true
-                testWhileIdle = true
-                testOnReturn = false
-                jdbcInterceptors = "ConnectionState;StatementCache(max=200)"
-                defaultTransactionIsolation = java.sql.Connection.TRANSACTION_READ_COMMITTED
-            }
-
         }
 
         hibernate {

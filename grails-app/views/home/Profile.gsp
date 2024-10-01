@@ -42,7 +42,7 @@
     .profile-info p {
         font-size: 1.1rem;
         margin-bottom: 10px;
-        color: #333;
+        color: #fff;
     }
 
     .hidden {
@@ -60,6 +60,8 @@
 
     .form-control {
         border-radius: 8px;
+        background-color: #333333;
+        color: #EFEFEF;
     }
 
     .form-label {
@@ -69,8 +71,8 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="profile-container">
+<div class="container text-light">
+    <div class="profile-container bg-dark">
         <h2 class="text-center">Profile</h2>
 
         <div class="text-center">
@@ -84,7 +86,7 @@
             <p><strong>E-Mail:</strong> <span id="email">ahmet.yilmaz@example.com</span></p>
         </div>
 
-        <div id="editProfile" class="hidden">
+        <div id="editProfile" class="hidden bg-dark text-light  ">
             <form action="/profile/update" method="POST" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="firstNameInput" class="form-label">Name</label>
@@ -107,10 +109,9 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="passwordInput" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="passwordInput" name="password" placeholder="Yeni şifre giriniz (değiştirmek için)">
+                    <label for="passwordInput" class="form-label bg-dark text-light">Password</label>
+                    <input type="password" class="form-control" id="passwordInput" name="password" value="123456" placeholder="Yeni şifre giriniz (değiştirmek için)">
                 </div>
-
                 <div class="d-grid">
                     <button type="submit" class="btn btn-primary">Save</button>
                 </div>

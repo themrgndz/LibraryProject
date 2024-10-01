@@ -36,6 +36,10 @@
             padding: 15px;
         }
     }
+    .form-control{
+        background-color: rgb(20,20,20,0.8);
+        color: #EFEFEF;
+    }
     </style>
 </head>
 <body>

@@ -77,7 +77,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="groovy-5.0.0-alpha-1 (2)" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (MyLibrary-grailsPlugins)">
         <CLASSES>

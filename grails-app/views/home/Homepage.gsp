@@ -51,6 +51,7 @@
 		transition: transform 0.4s ease, box-shadow 0.4s ease;
 		transform-style: preserve-3d;
 		perspective: 1000px;
+		background-color: #16191b!important;
 	}
 	.card:hover {
 		transform: scale(1.1);
@@ -62,6 +63,9 @@
 		object-fit: cover;
 		object-position: center;
 		border-radius: 10px;
+	}
+	.card-body {
+		cursor: pointer;
 	}
 	</style>
 </head>
@@ -91,135 +95,29 @@
 	</div>
 </nav>
 
-
-
 <div class="container main">
-	<div class="container mt-4 categories">
-		<h2 class="text-center mb-4">Categories</h2>
-		<div class="row">
-			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
-					<i class="fas fa-book category-icon"></i>
-					<h5 class="category-title">Fiction</h5>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
-					<i class="fas fa-flask category-icon"></i>
-					<h5 class="category-title">Science</h5>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
-					<i class="fas fa-landmark category-icon"></i>
-					<h5 class="category-title">History</h5>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
-					<i class="fas fa-brain category-icon"></i>
-					<h5 class="category-title">Philosophy</h5>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
-					<i class="fas fa-paint-brush category-icon"></i>
-					<h5 class="category-title">Art</h5>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-				<div class="card category-card p-3" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
-					<i class="fas fa-child category-icon"></i>
-					<h5 class="category-title">Children</h5>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div class="container">
-		<h2>Yeni Eklenenler</h2>
 		<div class="row">
-			<div class="col-lg-3 col-md-4 col-sm-6 pb-4">
-				<div class="card">
-					<img src="https://marketplace.canva.com/EAFQE7XNmsw/1/0/1003w/canva-lacivert-minimalist-kelebek-u%C3%A7-kitap-kapa%C4%9F%C4%B1-tpBdl9y5rlw.jpg" class="card-img-top" alt="Kitap 1">
-					<div class="card-body">
-						<h5 class="card-title">Book 1</h5>
-						<p class="card-text">A brief description of this book will appear here.</p>
-						<p class="card-text">Remaining stock: 5</p>
-						<a href="detail/1" class="btn btn-primary">Details</a>
-					</div>
+		<!-- Kitapları dinamik olarak oluşturuyoruz -->
+			<g:each in="${bookInstanceList}" var="book">
+				<div class="col-lg-3 col-md-4 col-sm-6 pb-4">
+					<a href="detail/${book.id}" class="text-decoration-none">
+						<div class="card bg-dark text-light">
+							<img src="${book.image_url}" class="card-img-top" alt="${book.title}">
+							<div class="card-body">
+								<h5 class="card-title text-light">${book.title}</h5>
+								<p class="card-text text-light">${book.description}</p>
+								<p class="card-text text-light">Remaining stock: ${book.stock}</p>
+							</div>
+						</div>
+					</a>
 				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 pb-4">
-				<div class="card">
-					<img src="https://marketplace.canva.com/EAFH1JlujwI/2/0/1003w/canva-ye%C5%9Fil-sade-gizemli-orman-foto%C4%9Frafl%C4%B1-roman-kitap-kapa%C4%9F%C4%B1-mfPVe9UxMO0.jpg" class="card-img-top" alt="Kitap 2">
-					<div class="card-body">
-						<h5 class="card-title">Book 2</h5>
-						<p class="card-text">A brief description of this book will appear here.</p>
-						<p class="card-text">Remaining stock: 5</p>
-						<a href="detail/2" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 pb-4">
-				<div class="card">
-					<img src="https://marketplace.canva.com/EAEe1W_Hods/1/0/1024w/canva-tek-renkli-gerilim-wattpad-kapa%C4%9F%C4%B1-Wcatv-Oosb0.jpg" class="card-img-top" alt="Kitap 3">
-					<div class="card-body">
-						<h5 class="card-title">Book 3</h5>
-						<p class="card-text">A brief description of this book will appear here.</p>
-						<p class="card-text">Remaining stock: 5</p>
-						<a href="detail/3" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 pb-4">
-				<div class="card">
-					<img src="https://static-cse.canva.com/blob/1708256/1024w-Ud9dNR2wsng.jpg" class="card-img-top" alt="Kitap 4">
-					<div class="card-body">
-						<h5 class="card-title">Book 4</h5>
-						<p class="card-text">A brief description of this book will appear here.</p>
-						<p class="card-text">Remaining stock: 4</p>
-						<a href="detail/4" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 pb-4">
-				<div class="card">
-					<img src="https://marketplace.canva.com/EAD51V3O7Hg/1/0/1003w/canva-beyaz-gece-g%C3%B6ky%C3%BCz%C3%BC-otobiyografi-kitap-kapa%C4%9F%C4%B1-byiM1lwz9y0.jpg" class="card-img-top" alt="Kitap 3">
-					<div class="card-body">
-						<h5 class="card-title">Book 5</h5>
-						<p class="card-text">A brief description of this book will appear here.</p>
-						<p class="card-text">Remaining stock: 5</p>
-						<a href="detail/5" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 pb-4">
-				<div class="card">
-					<img src="https://marketplace.canva.com/EAFCpY6Lz2E/1/0/1003w/canva-cad%C4%B1-kitap-kapa%C4%9F%C4%B1-_O41H90NVvU.jpg" class="card-img-top" alt="Kitap 1">
-					<div class="card-body">
-						<h5 class="card-title">Book 6</h5>
-						<p class="card-text">A brief description of this book will appear here.</p>
-						<p class="card-text">Remaining stock: 5</p>
-						<a href="detail/6" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 pb-4">
-				<div class="card">
-					<img src="https://marketplace.canva.com/EAFJV3O0K3o/1/0/1003w/canva-siyah-beyaz-ve-koyu-sar%C4%B1-do%C4%9Fa-hakk%C4%B1nda-roman-i%CC%87ll%C3%BCstrasyon-ve-tipografik-kitap-kapa%C4%9F%C4%B1-h1wRXxi71eg.jpg" class="card-img-top" alt="Kitap 2">
-					<div class="card-body">
-						<h5 class="card-title">Book 7</h5>
-						<p class="card-text">A brief description of this book will appear here.</p>
-						<p class="card-text">Remaining stock: 5</p>
-						<a href="detail/7" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-			</div>
+			</g:each>
 		</div>
 	</div>
 </div>
-<footer class="footer-bar py-3">
+
+<footer class="footer-bar py- bg-dark text-light">
 	<p class="m-0">© 2023 Uzmar Library. All rights reserved.</p>
 </footer>
 
