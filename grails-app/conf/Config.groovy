@@ -1,15 +1,14 @@
-// locations to search for config files that get merged into the main config;
-// config files can be ConfigSlurper scripts, Java properties files, or classes
-// in the classpath in ConfigSlurper format
-
-// grails.config.locations = [ "classpath:${appName}-config.properties",
-//                             "classpath:${appName}-config.groovy",
-//                             "file:${userHome}/.grails/${appName}-config.properties",
-//                             "file:${userHome}/.grails/${appName}-config.groovy"]
-
-// if (System.properties["${appName}.config.location"]) {
-//    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
-// }
+// CORS (Cross-Origin Resource Sharing) yapılandırması
+cors.enabled = true
+cors.mappings = [
+        '/**': [
+                allowedOrigins: ['http://localhost:3030'], // React uygulamanızın çalıştığı port
+                allowedMethods: ['GET', 'POST', 'PUT', 'DELETE'],
+                allowedHeaders: ['*'],
+                exposedHeaders: ['Content-Disposition'],
+                allowCredentials: true,
+        ]
+]
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 
@@ -30,9 +29,6 @@ grails.mime.types = [ // the first one is the default format
     hal:           ['application/hal+json','application/hal+xml'],
     xml:           ['text/xml', 'application/xml']
 ]
-
-// URL Mapping Cache Max Size, defaults to 5000
-//grails.urlmapping.cache.maxsize = 1000
 
 // Legacy setting for codec used to encode data with ${}
 grails.views.default.codec = "html"
@@ -96,11 +92,6 @@ environments {
 
 // log4j configuration
 log4j.main = {
-    // Example of changing the log pattern for the default console appender:
-    //
-    //appenders {
-    //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
-    //}
 
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP

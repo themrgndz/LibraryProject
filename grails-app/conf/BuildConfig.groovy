@@ -50,7 +50,6 @@ grails.project.dependency.resolution = {
         runtime 'com.microsoft.sqlserver:mssql-jdbc:9.4.1.jre8' // veya uygun bir sürüm
 
         runtime 'net.sourceforge.jtds:jtds:1.3.1' // Check for the latest version
-
     }
 
     plugins {

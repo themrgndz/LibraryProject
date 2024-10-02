@@ -1,46 +1,58 @@
 package mylibrary
 
+import grails.converters.JSON
+
 class BookController {
-    static responseFormats = ['json', 'xml']
 
+    // 1. GET - Tüm kitapları listeleme
     def index() {
-        respond Book.list()
+        def books = Book.list()  // Book domain sınıfından tüm kitapları getirir.
+        render books as JSON     // JSON formatında yanıt verir.
     }
 
-    def show(int id) {
-        respond Book.get(id)
-    }
-
-    def save() {
-        def book = new Book(request.JSON)
-        if (book.save(flush: true)) {
-            respond book, [status: 201]
+    // 2. GET - ID ile bir kitabı bulma
+    def show(Long id) {
+        def book = Book.get(id)
+        if (!book) {
+            render(status: 404, text: "Kitap bulunamadı")
         } else {
-            respond book.errors, [status: 400]
+            render book as JSON
         }
     }
 
-    def update(int id) {
+    // 3. POST - Yeni bir kitap oluşturma
+    def save() {
+        def book = new Book(request.JSON)  // JSON verilerini Book domain objesine çevirir.
+        if (book.save(flush: true)) {
+            render book as JSON  // Başarıyla oluşturulan kitabı geri döndürür.
+        } else {
+            render(status: 400, text: "Kitap oluşturulamadı")
+        }
+    }
+
+    // 4. PUT - Mevcut bir kitabı güncelleme
+    def update(Long id) {
         def book = Book.get(id)
-        if (book) {
+        if (!book) {
+            render(status: 404, text: "Kitap bulunamadı")
+        } else {
             book.properties = request.JSON
             if (book.save(flush: true)) {
-                respond book
+                render book as JSON  // Güncellenmiş kitabı geri döndürür.
             } else {
-                respond book.errors, [status: 400]
+                render(status: 400, text: "Kitap güncellenemedi")
             }
-        } else {
-            render status: 404
         }
     }
 
-    def delete(int id) {
+    // 5. DELETE - Bir kitabı silme
+    def delete(Long id) {
         def book = Book.get(id)
-        if (book) {
-            book.delete(flush: true)
-            render status: 204
+        if (!book) {
+            render(status: 404, text: "Kitap bulunamadı")
         } else {
-            render status: 404
+            book.delete(flush: true)
+            render(status: 204, text: "Kitap silindi")  // Başarıyla silinme durumu.
         }
     }
 }
