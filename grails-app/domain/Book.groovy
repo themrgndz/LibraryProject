@@ -1,12 +1,12 @@
 class Book {
     Long id
     String title
-    Author author
-    Publisher publisher
+    String author
+    String publisher
     Integer publicationYear
     Integer pageCount
     String language
-    Category category
+    String category
     String isbn
     Integer stockCount
 

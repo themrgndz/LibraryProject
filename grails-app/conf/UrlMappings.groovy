@@ -7,7 +7,6 @@ class UrlMappings {
         "/detail/$id"(controller: "book", action: "detail")
         "500"(view:'/error')
 
-        //Api links
         "/api/books"(resources: 'book')
         "/api/books/$id"(controller: 'book', action: [GET: 'show', PUT: 'update', DELETE: 'delete'])
         "/api/books"(controller: 'book', action: [GET: 'index', POST: 'save'])
