@@ -1,15 +1,14 @@
-// locations to search for config files that get merged into the main config;
-// config files can be ConfigSlurper scripts, Java properties files, or classes
-// in the classpath in ConfigSlurper format
-
-// grails.config.locations = [ "classpath:${appName}-config.properties",
-//                             "classpath:${appName}-config.groovy",
-//                             "file:${userHome}/.grails/${appName}-config.properties",
-//                             "file:${userHome}/.grails/${appName}-config.groovy"]
-
-// if (System.properties["${appName}.config.location"]) {
-//    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
-// }
+// CORS (Cross-Origin Resource Sharing) yapılandırması
+cors.enabled = true
+cors.mappings = [
+        '/**': [
+                allowedOrigins: ['http://localhost:3030'], // React uygulamanızın çalıştığı port
+                allowedMethods: ['GET', 'POST', 'PUT', 'DELETE'],
+                allowedHeaders: ['*'],
+                exposedHeaders: ['Content-Disposition'],
+                allowCredentials: true,
+        ]
+]
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 
@@ -31,9 +30,6 @@ grails.mime.types = [ // the first one is the default format
     xml:           ['text/xml', 'application/xml']
 ]
 
-// URL Mapping Cache Max Size, defaults to 5000
-//grails.urlmapping.cache.maxsize = 1000
-
 // Legacy setting for codec used to encode data with ${}
 grails.views.default.codec = "html"
 
@@ -43,19 +39,13 @@ grails.controllers.defaultScope = 'singleton'
 
 // GSP settings
 grails {
-    views {
-        gsp {
-            encoding = 'UTF-8'
-            htmlcodec = 'xml' // use xml escaping instead of HTML4 escaping
-            codecs {
-                expression = 'html' // escapes values inside ${}
-                scriptlet = 'html' // escapes output from scriptlets in GSPs
-                taglib = 'none' // escapes output from taglibs
-                staticparts = 'none' // escapes output from static template parts
-            }
-        }
-        // escapes all not-encoded output at final stage of outputting
-        // filteringCodecForContentType.'text/html' = 'html'
+    cors {
+        enabled = false
+        allowedOrigins = ['http://localhost:3030']
+        allowedMethods = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+        allowedHeaders = ['Origin', 'Content-Type', 'Accept', 'Authorization']
+        exposedHeaders = ['Authorization']
+        allowCredentials = true
     }
 }
 
@@ -96,11 +86,6 @@ environments {
 
 // log4j configuration
 log4j.main = {
-    // Example of changing the log pattern for the default console appender:
-    //
-    //appenders {
-    //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
-    //}
 
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP

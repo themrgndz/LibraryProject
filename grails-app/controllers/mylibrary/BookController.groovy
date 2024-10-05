@@ -1,46 +1,89 @@
 package mylibrary
-
+import grails.converters.JSON
 class BookController {
-    static responseFormats = ['json', 'xml']
 
+    // List all books (Read - GET)
     def index() {
-        respond Book.list()
+        respond Book.list(), [formats: ['json']]
     }
 
-    def show(int id) {
-        respond Book.get(id)
+    // Show details of a specific book (Read - GET)
+    /*
+    def books = Book.list()
+
+    def book = Book.get(1L)
+
+    def book = Book.findByTitle("The Great Gatsby")
+
+    def inStockBooks = Book.findAllByStockGreaterThan(0)
+
+    def books = Book.findAllByTitleLike("The%")
+
+    def booksSortedByStock = Book.list(sort: "stock", order: "desc")
+
+    def books = Book.findAllByStockGreaterThanAndTitleLike(5, "The%")
+
+    def books = Book.executeQuery("from Book where stock > :stock and title like :title", [stock: 5, title: 'The%'])
+    */
+    def show(Long id) {
+        Book book = Book.get(id)
+        if (!book) {
+            notFound()
+            return
+        }
+        respond book, [formats: ['json']]
     }
 
+    // POST /api/books
     def save() {
-        def book = new Book(request.JSON)
+        println("BASARDINNNNN")
+        def bookData = request.JSON
+        def book = new Book(bookData)
+
         if (book.save(flush: true)) {
-            respond book, [status: 201]
+            render book as JSON
         } else {
-            respond book.errors, [status: 400]
+            render status: 400, text: book.errors as JSON
         }
     }
 
-    def update(int id) {
-        def book = Book.get(id)
-        if (book) {
-            book.properties = request.JSON
-            if (book.save(flush: true)) {
-                respond book
-            } else {
-                respond book.errors, [status: 400]
-            }
-        } else {
-            render status: 404
+    // Update an existing book (Update - PUT)
+    def update(Long id) {
+        Book book = Book.get(id)
+        if (!book) {
+            notFound()
+            return
         }
+
+        book.properties = params
+
+        if (!book.save(flush: true)) {
+            // If there are validation errors
+            respond book.errors, view: 'edit', [formats: ['json']]
+            return
+        }
+
+        // Respond with updated book details after successful update
+        respond book, [formats: ['json']]
     }
 
-    def delete(int id) {
-        def book = Book.get(id)
-        if (book) {
-            book.delete(flush: true)
-            render status: 204
-        } else {
-            render status: 404
+    // Delete a book (Delete - DELETE)
+    def delete(Long id) {
+        Book book = Book.get(id)
+        if (!book) {
+            notFound()
+            return
         }
+
+        book.delete(flush: true)
+        // Respond with success message or status
+        render status: 204, text: 'Book deleted', [formats: ['json']]
+    }
+
+    // Handle cases where the book is not found
+    protected void notFound() {
+        render status: 404, text: "Book not found", [formats: ['json']]
     }
 }
+
+
