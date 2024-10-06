@@ -1,66 +1,67 @@
 package mylibrary
-import grails.converters.JSON
 
 class BookController {
+    BookService bookService
 
-    // List all books (Read - GET)
-    def index() {
-        respond Book.list(), [formats: ['json']]
+    def list() {
+        def books = bookService.getAllBooks()
+        respond books
     }
 
-    // Show details of a specific book (Read - GET)
     def show(Long id) {
-        Book book = Book.get(id)
-        if (!book) {
-            notFound()
-            return
-        }
-        respond book, [formats: ['json']]
-    }
-
-    // POST /api/books
-    def saveBook() {
-        def book = new Book(request.JSON as Map) // Gelen veriyi JSON olarak al
-
-        if (book.save(flush: true)) {
-            render status: 201, json: [message: "Kitap başarıyla eklendi", book: book]
+        def book = bookService.getBookById(id)
+        if (book) {
+            respond book
         } else {
-            render status: 400, json: [error: "Kaydetme işlemi başarısız", errors: book.errors]
+            render status: 404, text: "Book not found."
         }
     }
 
-    // Update an existing book (Update - PUT)
+    def save() {
+        def name = params.name
+        def author = params.author
+        def publisher = params.publisher
+        def year = params.int('year')
+        def pageCount = params.int('pageCount')
+        def language = params.language
+        def category = Category.get(params.long('categoryId'))
+        def isbn = params.isbn
+        def stock = params.int('stock')
+        def img = params.img
+
+        def book = bookService.addBook(name, author, publisher, year, pageCount, language, category, isbn, stock, img)
+        if (book) {
+            respond book, status: 201
+        } else {
+            render status: 400, text: "Book could not be created."
+        }
+    }
+
     def update(Long id) {
-        Book book = Book.get(id)
-        if (!book) {
-            notFound()
-            return
+        def name = params.name
+        def author = params.author
+        def publisher = params.publisher
+        def year = params.int('year')
+        def pageCount = params.int('pageCount')
+        def language = params.language
+        def category = Category.get(params.long('categoryId'))
+        def isbn = params.isbn
+        def stock = params.int('stock')
+        def img = params.img
+
+        def book = bookService.updateBook(id, name, author, publisher, year, pageCount, language, category, isbn, stock, img)
+        if (book) {
+            respond book
+        } else {
+            render status: 404, text: "Book not found or could not be updated."
         }
-
-        book.properties = request.JSON // Gelen JSON verisini al
-
-        if (!book.save(flush: true)) {
-            respond book.errors, view: 'edit', [formats: ['json']]
-            return
-        }
-
-        respond book, [formats: ['json']]
     }
 
-    // Delete a book (Delete - DELETE)
     def delete(Long id) {
-        Book book = Book.get(id)
-        if (!book) {
-            notFound()
-            return
+        if (bookService.deleteBook(id)) {
+            render status: 204
+        } else {
+            render status: 404, text: "Book not found."
         }
-
-        book.delete(flush: true)
-        render status: 204, text: 'Book deleted', [formats: ['json']]
-    }
-
-    // Handle cases where the book is not found
-    protected void notFound() {
-        render status: 404, text: "Book not found", [formats: ['json']]
     }
 }
