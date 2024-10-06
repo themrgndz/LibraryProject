@@ -20,6 +20,11 @@
     <filter-class>com.brandseye.cors.CorsFilter</filter-class>
     <async-supported>true</async-supported>
   </filter>
+  <filter>
+    <filter-name>AssetPipelineFilter</filter-name>
+    <filter-class>asset.pipeline.grails.AssetPipelineFilter</filter-class>
+    <async-supported>true</async-supported>
+  </filter>
 
     <filter>
         <filter-name>charEncodingFilter</filter-name>
@@ -34,11 +39,6 @@
             <param-value>true</param-value>
         </init-param>
     </filter>
-  <filter>
-    <filter-name>AssetPipelineFilter</filter-name>
-    <filter-class>asset.pipeline.grails.AssetPipelineFilter</filter-class>
-    <async-supported>true</async-supported>
-  </filter>
   <filter>
     <filter-name>urlMapping</filter-name>
     <filter-class>org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter</filter-class>
@@ -177,9 +177,5 @@
         <welcome-file>index.jsp</welcome-file>
         <welcome-file>index.gsp</welcome-file>
     </welcome-file-list>
-  <error-page>
-    <error-code>500</error-code>
-    <location>/grails-errorhandler</location>
-  </error-page>
 
 </web-app>

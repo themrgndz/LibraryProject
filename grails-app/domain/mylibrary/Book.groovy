@@ -3,8 +3,8 @@ package mylibrary
 class Book {
     String title
     String description
-    String imageUrl // Resim URL'si
-    int stock // Stok durumu
+    String imageUrl
+    int stock
 
     static constraints = {
         title nullable: false, blank: false, maxSize: 255

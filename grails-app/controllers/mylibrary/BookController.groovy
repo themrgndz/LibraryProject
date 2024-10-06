@@ -1,5 +1,6 @@
 package mylibrary
 import grails.converters.JSON
+
 class BookController {
 
     // List all books (Read - GET)
@@ -8,23 +9,6 @@ class BookController {
     }
 
     // Show details of a specific book (Read - GET)
-    /*
-    def books = Book.list()
-
-    def book = Book.get(1L)
-
-    def book = Book.findByTitle("The Great Gatsby")
-
-    def inStockBooks = Book.findAllByStockGreaterThan(0)
-
-    def books = Book.findAllByTitleLike("The%")
-
-    def booksSortedByStock = Book.list(sort: "stock", order: "desc")
-
-    def books = Book.findAllByStockGreaterThanAndTitleLike(5, "The%")
-
-    def books = Book.executeQuery("from Book where stock > :stock and title like :title", [stock: 5, title: 'The%'])
-    */
     def show(Long id) {
         Book book = Book.get(id)
         if (!book) {
@@ -36,14 +20,14 @@ class BookController {
 
     // POST /api/books
     def saveBook() {
-        def book = new Book(params)
+        def book = new Book(request.JSON as Map) // Gelen veriyi JSON olarak al
+
         if (book.save(flush: true)) {
-            render status: 200, json: [message: "Kitap başarıyla eklendi"]
+            render status: 201, json: [message: "Kitap başarıyla eklendi", book: book]
         } else {
-            render status: 500, json: [error: "Kaydetme işlemi başarısız"]
+            render status: 400, json: [error: "Kaydetme işlemi başarısız", errors: book.errors]
         }
     }
-
 
     // Update an existing book (Update - PUT)
     def update(Long id) {
@@ -53,15 +37,13 @@ class BookController {
             return
         }
 
-        book.properties = params
+        book.properties = request.JSON // Gelen JSON verisini al
 
         if (!book.save(flush: true)) {
-            // If there are validation errors
             respond book.errors, view: 'edit', [formats: ['json']]
             return
         }
 
-        // Respond with updated book details after successful update
         respond book, [formats: ['json']]
     }
 
@@ -74,7 +56,6 @@ class BookController {
         }
 
         book.delete(flush: true)
-        // Respond with success message or status
         render status: 204, text: 'Book deleted', [formats: ['json']]
     }
 
@@ -83,5 +64,3 @@ class BookController {
         render status: 404, text: "Book not found", [formats: ['json']]
     }
 }
-
-
