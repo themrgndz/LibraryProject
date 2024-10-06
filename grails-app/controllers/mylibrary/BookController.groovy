@@ -35,17 +35,15 @@ class BookController {
     }
 
     // POST /api/books
-    def save() {
-        println("BASARDINNNNN")
-        def bookData = request.JSON
-        def book = new Book(bookData)
-
+    def saveBook() {
+        def book = new Book(params)
         if (book.save(flush: true)) {
-            render book as JSON
+            render status: 200, json: [message: "Kitap başarıyla eklendi"]
         } else {
-            render status: 400, text: book.errors as JSON
+            render status: 500, json: [error: "Kaydetme işlemi başarısız"]
         }
     }
+
 
     // Update an existing book (Update - PUT)
     def update(Long id) {

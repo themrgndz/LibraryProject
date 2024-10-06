@@ -5224,3 +5224,6 @@ n:8611:org/apache/tools/ant/taskdefs/ImportTask
 n:1295:org/apache/tools/ant/taskdefs/Delete$1
 n:1522:org/apache/tools/ant/taskdefs/Delete$ReverseDirs
 n:1201:org/apache/tools/ant/taskdefs/Delete$ReverseDirs$1
+n:1831:sl/org/objectweb/asm/tree/TryCatchBlockNode
+n:1800:sl/org/objectweb/asm/tree/FrameNode
+n:799:sl/org/objectweb/asm/tree/MultiANewArrayInsnNode
