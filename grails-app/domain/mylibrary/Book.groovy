@@ -2,31 +2,18 @@ package mylibrary
 
 class Book {
     String title
-    String author
-    String publisher
-    Integer publicationYear
-    Integer pageCount
-    String language
-    String category
-    String isbn
-    Integer stock
     String description
-    String image_url
+    String imageUrl
+    int stock
 
     static constraints = {
-        title nullable: false
-        author nullable: false
-        publisher nullable: false
-        publicationYear nullable: false
-        pageCount nullable: false
-        language nullable: false
-        category nullable: false
-        isbn nullable: false, unique: true
+        title nullable: false, blank: false, maxSize: 255
+        description nullable: true, maxSize: 1000
+        imageUrl nullable: true, maxSize: 2048
         stock nullable: false, min: 0
-        description nullable: true
-        image_url nullable: true
     }
+
     static mapping = {
-        version false
+        version false // Disable versioning
     }
 }
