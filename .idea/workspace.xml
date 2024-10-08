@@ -25,33 +25,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Grails.Grails: MyLibrary.executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
-    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/emrgn/OneDrive/Masaüstü/LibraryProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Grails.Grails: MyLibrary.executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/trgtg/Desktop/Grails-Git",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver.localdb&quot;,
-      &quot;sqlserver&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver.localdb",
+      "sqlserver"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\trgtg\Desktop\Grails-Git\grails-app\conf" />
       <recent name="C:\Users\emrgn\OneDrive\Masaüstü\LibraryProject\grails-app\conf" />
     </key>
   </component>
@@ -104,15 +105,18 @@
       <workItem from="1728133014605" duration="15942000" />
       <workItem from="1728159696582" duration="88000" />
       <workItem from="1728159864854" duration="16000" />
-      <workItem from="1728160230166" duration="39000" />
-      <workItem from="1728160286539" duration="51000" />
-      <workItem from="1728161617823" duration="3354000" />
-      <workItem from="1728204094948" duration="2559000" />
-      <workItem from="1728208348203" duration="6359000" />
-      <workItem from="1728220622763" duration="682000" />
-      <workItem from="1728226150907" duration="30000" />
-      <workItem from="1728227282562" duration="9619000" />
-      <workItem from="1728248700479" duration="1599000" />
+      <workItem from="1728288876414" duration="65000" />
+      <workItem from="1728288960893" duration="1912000" />
+      <workItem from="1728291209660" duration="1124000" />
+      <workItem from="1728292350553" duration="766000" />
+      <workItem from="1728293198760" duration="7000" />
+      <workItem from="1728296271828" duration="129000" />
+      <workItem from="1728296411003" duration="16000" />
+      <workItem from="1728298276712" duration="3765000" />
+      <workItem from="1728310067049" duration="370000" />
+      <workItem from="1728310447260" duration="1743000" />
+      <workItem from="1728364049127" duration="9000" />
+      <workItem from="1728368120812" duration="709000" />
     </task>
     <servers />
   </component>
@@ -125,16 +129,16 @@
         <entry key="MyLibrary">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="13566833" />
-              <option name="pluginDependenciesCrc" value="-1612236186" />
+              <option name="buildConfigCrc" value="1625387187" />
+              <option name="pluginDependenciesCrc" value="1682136675" />
               <option name="properties">
                 <map>
-                  <entry key="grails.global.plugins.dir" value="C:\Users\emrgn\.grails\2.5.6\global-plugins" />
+                  <entry key="grails.global.plugins.dir" value="C:\Users\trgtg\.grails\2.5.6\global-plugins" />
                   <entry key="grails.project.fork.run" value="true" />
                   <entry key="grails.project.fork.test" value="true" />
                   <entry key="grails.project.plugins.dir" value="target\work\plugins" />
                   <entry key="grails.project.work.dir" value="target\work" />
-                  <entry key="grails.work.dir" value="C:\Users\emrgn\.grails\2.5.6" />
+                  <entry key="grails.work.dir" value="C:\Users\trgtg\.grails\2.5.6" />
                 </map>
               </option>
             </GrailsSettings>
