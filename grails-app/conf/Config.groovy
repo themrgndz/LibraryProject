@@ -1,3 +1,15 @@
+// CORS (Cross-Origin Resource Sharing) yapılandırması
+cors.enabled = true
+cors.mappings = [
+        '/**': [
+                allowedOrigins: ['http://localhost:3030'], // React uygulamanızın çalıştığı port
+                allowedMethods: ['GET', 'POST', 'PUT', 'DELETE'],
+                allowedHeaders: ['*'],
+                exposedHeaders: ['Content-Disposition'],
+                allowCredentials: true,
+        ]
+]
+
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 
 // The ACCEPT header will not be used for content negotiation for user agents containing the following strings (defaults to the 4 major rendering engines)
@@ -24,6 +36,18 @@ grails.views.default.codec = "html"
 // The default scope for controllers. May be prototype, session or singleton.
 // If unspecified, controllers are prototype scoped.
 grails.controllers.defaultScope = 'singleton'
+
+// GSP settings
+grails {
+    cors {
+        enabled = false
+        allowedOrigins = ['http://localhost:3030']
+        allowedMethods = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+        allowedHeaders = ['Origin', 'Content-Type', 'Accept', 'Authorization']
+        exposedHeaders = ['Authorization']
+        allowCredentials = true
+    }
+}
 
 grails.converters.encoding = "UTF-8"
 // scaffolding templates configuration
@@ -74,11 +98,4 @@ log4j.main = {
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
-}
-grails {
-    cors {
-        allowedOrigins = ['*']
-        allowedMethods = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-        allowedHeaders = ['Content-Type', 'Authorization']
-    }
 }

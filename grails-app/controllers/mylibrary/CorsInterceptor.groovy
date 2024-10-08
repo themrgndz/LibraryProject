@@ -3,21 +3,21 @@ package mylibrary
 class CorsInterceptor {
 
     CorsInterceptor() {
-        matchAll() // Tüm URL'ler için geçerli
+        matchAll() // Tüm isteklere uygulanır
     }
 
     boolean before() {
-        response.setHeader("Access-Control-Allow-Origin", "*") // Belirli bir domain kullanmak istersen "*" yerine o domain'i yazabilirsin
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:3030") // Frontend URL
         response.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-        response.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization")
+        response.setHeader("Access-Control-Allow-Headers", "Origin, Content-Type, Accept, Authorization")
+        response.setHeader("Access-Control-Allow-Credentials", "true")
 
-        // OPTIONS isteğine cevap vermek için
-        if (request.method == 'OPTIONS') {
-            render(status: 200)
-            return false
+        if (request.method == "OPTIONS") {
+            response.status = 200 // OPTIONS isteği olduğunda 200 döner
+            return false // İşlemi sonlandır
         }
 
-        return true // Diğer işlemler için isteğin devam etmesini sağla
+        return true // Diğer istekleri devam ettir
     }
 
     boolean after() {
@@ -25,6 +25,6 @@ class CorsInterceptor {
     }
 
     void afterView() {
-        // Görüntüleme sonrası işlemler için
+        // No-op
     }
 }

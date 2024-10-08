@@ -3,8 +3,9 @@ grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 grails.project.work.dir = "target/work"
-grails.project.target.level = 1.6
-grails.project.source.level = 1.6
+grails.project.target.level = 1.8
+grails.project.source.level = 1.8
+//grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 grails.project.fork = [
     test: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
@@ -37,19 +38,25 @@ grails.project.dependency.resolution = {
 
     dependencies {
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
-        runtime 'com.microsoft.sqlserver:mssql-jdbc:9.4.1.jre8'
-        runtime 'net.sourceforge.jtds:jtds:1.3.1'
+        runtime 'com.microsoft.sqlserver:mssql-jdbc:9.4.1.jre8' // veya uygun bir sürüm
+        runtime 'net.sourceforge.jtds:jtds:1.3.1' // Check for the latest version
     }
 
     plugins {
+        // plugins for the build system only
         build ":tomcat:7.0.70" // or ":tomcat:8.0.22"
 
+        // plugins for the compile step
         compile ":scaffolding:2.1.2"
         compile ':cache:1.1.8'
+        // asset-pipeline 2.0+ requires Java 7, use version 1.9.x with Java 6
         compile ":asset-pipeline:2.5.7"
 
+        // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.10" // or ":hibernate:3.6.10.18"
         runtime ":database-migration:1.4.0"
         runtime ":jquery:1.11.1"
+
+        compile ":cors:1.0.0" // Check for the latest version
     }
 }

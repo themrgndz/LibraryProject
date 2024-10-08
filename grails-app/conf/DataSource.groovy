@@ -17,8 +17,8 @@ environments {
     development {
         dataSource {
             dbCreate = "update"
-            username = "sa"
-            password = "sa123"
+            username = "Yonetici"
+            password = "sa12345"
 
             url = "jdbc:jtds:sqlserver://localhost:1433/Library"
             driverClassName = "net.sourceforge.jtds.jdbc.Driver"
