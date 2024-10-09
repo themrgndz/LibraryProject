@@ -65,7 +65,7 @@ class BookController {
     }
 
     def list() {
-        def bookList = bookService.listAllBooks() // Servisten tüm kitapları al
-        [bookList: bookList] // Görünüme kitap listesini gönder
+        def bookList = bookService.listAllBooks()
+        [bookList: bookList]
     }
 }

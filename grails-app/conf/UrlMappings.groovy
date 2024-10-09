@@ -2,17 +2,21 @@ class UrlMappings {
 
     static mappings = {
 
-        "/MyLibrary/api/books"(controller: 'book') {
-            action = [GET: 'index', POST: 'save']
-        }
+        // GET Mappings
+        "/"(controller: 'book', action: 'index')
+        "/MyLibrary/api/books"(controller: 'book', action: 'index')
+        "/MyLibrary/api/books/$id"(controller: 'book', action: 'show')
+        "/MyLibrary/api/books/create"(controller: 'book', action: 'create')
+        "/MyLibrary/api/books/edit/$id"(controller: 'book', action: 'edit')
 
-        "/MyLibrary/api/books/$id"(controller: 'book') {
-            action = [GET: 'show', PUT: 'update', DELETE: 'delete']
-        }
+        // POST Mappings
+        "/MyLibrary/api/books"(controller: 'book', action: 'save', method: 'POST')
 
-        // Optional: You could add an additional mapping for create/edit forms if needed.
-        "/MyLibrary/api/books/create"(controller: 'book', action: 'create', method: 'GET')
-        "/MyLibrary/api/books/edit/$id"(controller: 'book', action: 'edit', method: 'GET')
+        // PUT Mappings
+        "/MyLibrary/api/books/$id"(controller: 'book', action: 'update', method: 'PUT')
+
+        // DELETE Mappings
+        "/MyLibrary/api/books/$id"(controller: 'book', action: 'delete', method: 'DELETE')
 
         // Default URL Mapping
         "/"(view: "/index")

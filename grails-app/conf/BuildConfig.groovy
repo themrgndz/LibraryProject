@@ -52,6 +52,6 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.4.0"
         runtime ":jquery:1.11.1"
 
-        //compile ":cors:1.0.0"
+        compile ":cors:1.0.0"
     }
 }

@@ -2,16 +2,16 @@ package mylibrary
 
 class Book {
 
-    String title            // Title of the book
-    String author           // Author of the book
-    String publisher        // Publisher of the book
-    Integer publication_year // Year of publication
-    Integer page_count      // Total number of pages
-    String language         // Language of the book
-    String category         // Category of the book
-    String isbn             // ISBN of the book
-    Integer stock_count      // Number of copies in stock
-    String img              // Link to the book cover image
+    String title
+    String author
+    String publisher
+    Integer publication_year
+    Integer page_count
+    String language
+    String category
+    String isbn
+    Integer stock_count
+    String img
 
     static constraints = {
         title blank: false, maxSize: 255
