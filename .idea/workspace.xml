@@ -32,7 +32,7 @@
     "Notification.DoNotAsk-Database detector": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/trgtg/Desktop/Grails-Git",
+    "last_opened_file_path": "C:/Users/trgtg/Desktop/Gra",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,7 +52,6 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\trgtg\Desktop\Grails-Git\grails-app\conf" />
       <recent name="C:\Users\emrgn\OneDrive\Masaüstü\LibraryProject\grails-app\conf" />
     </key>
   </component>
@@ -107,16 +106,10 @@
       <workItem from="1728159864854" duration="16000" />
       <workItem from="1728288876414" duration="65000" />
       <workItem from="1728288960893" duration="1912000" />
-      <workItem from="1728291209660" duration="1124000" />
-      <workItem from="1728292350553" duration="766000" />
-      <workItem from="1728293198760" duration="7000" />
-      <workItem from="1728296271828" duration="129000" />
-      <workItem from="1728296411003" duration="16000" />
-      <workItem from="1728298276712" duration="3765000" />
-      <workItem from="1728310067049" duration="370000" />
-      <workItem from="1728310447260" duration="1743000" />
-      <workItem from="1728364049127" duration="9000" />
-      <workItem from="1728368120812" duration="709000" />
+      <workItem from="1728364059158" duration="2468000" />
+      <workItem from="1728368042053" duration="66000" />
+      <workItem from="1728368113135" duration="7000" />
+      <workItem from="1728453904527" duration="5715000" />
     </task>
     <servers />
   </component>
@@ -129,7 +122,7 @@
         <entry key="MyLibrary">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="1625387187" />
+              <option name="buildConfigCrc" value="1426720310" />
               <option name="pluginDependenciesCrc" value="1682136675" />
               <option name="properties">
                 <map>

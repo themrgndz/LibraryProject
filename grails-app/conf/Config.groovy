@@ -75,10 +75,3 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
-grails {
-    cors {
-        allowedOrigins = ['*']
-        allowedMethods = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-        allowedHeaders = ['Content-Type', 'Authorization']
-    }
-}
