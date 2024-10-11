@@ -98,4 +98,12 @@ class BookController {
             render status: 500, text: "Error occurred while listing books: ${e.message}"
         }
     }
+
+    def options() {
+        // Preflight isteğine yanıt veriyoruz
+        response.setHeader('Access-Control-Allow-Origin', 'http://localhost:3030')
+        response.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
+        response.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+        render status: 200
+    }
 }
