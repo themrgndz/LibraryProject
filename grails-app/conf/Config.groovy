@@ -1,8 +1,13 @@
-grails.plugin.cors.enabled = true
-grails.plugin.cors.allowOrigin = "*"
-grails.plugin.cors.allowMethods = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-grails.plugin.cors.allowHeaders = ['Content-Type', 'Authorization', 'X-Requested-With']
-
+// CORS izinlerini Config.groovy içine ekle
+grails {
+    cors {
+        enabled = true
+        allowedOrigins = ["*"] // React uygulamasının adresini burada belirtiyoruz
+        allowedMethods = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+        allowedHeaders = ["*"]
+        allowCredentials = true
+    }
+}
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 
 // The ACCEPT header will not be used for content negotiation for user agents containing the following strings (defaults to the 4 major rendering engines)

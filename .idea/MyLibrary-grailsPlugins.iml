@@ -52,8 +52,8 @@
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.8/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.8/src/java" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/cors-1.0.0">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cors-1.0.0/src/java" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/target/work/plugins/cors-1.0.1">
+      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cors-1.0.1/src/java" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.4.0">
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/controllers" isTestSource="false" />
