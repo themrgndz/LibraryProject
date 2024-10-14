@@ -1,109 +1,58 @@
 package mylibrary
 
+import grails.converters.JSON
+
 class BookController {
 
-    BookService bookService
-
-    // List all books
+    // 1. GET - Tüm kitapları listeleme
     def index() {
-        try {
-            def books = bookService.listAllBooks()
-            respond books, [formats: ['json']]
-        } catch (Exception e) {
-            render status: 500, text: "Error listing books: ${e.message}"
-        }
+        def books = Book.list()  // Book domain sınıfından tüm kitapları getirir.
+        render books as JSON     // JSON formatında yanıt verir.
     }
 
-    // Show a single book by ID
+    // 2. GET - ID ile bir kitabı bulma
     def show(Long id) {
-        try {
-            def book = bookService.getBookById(id)
-            if (book) {
-                respond book, [formats: ['json']]
-            } else {
-                render status: 404, text: "Book not found."
-            }
-        } catch (Exception e) {
-            render status: 500, text: "Error retrieving book: ${e.message}"
+        def book = Book.get(id)
+        if (!book) {
+            render(status: 404, text: "Kitap bulunamadı")
+        } else {
+            render book as JSON
         }
     }
 
-    // Save the newly created book using JSON request body
+    // 3. POST - Yeni bir kitap oluşturma
     def save() {
-        try {
-            def savedBook = bookService.saveBook(request.JSON) // Changed to request.JSON
-            if (savedBook) {
-                response.status = 201 // Created
-                respond savedBook, [formats: ['json']]
-            } else {
-                render status: 400, text: "Validation error occurred while adding the book."
-            }
-        } catch (Exception e) {
-            render status: 500, text: "Error occurred while adding the book: ${e.message}"
+        def book = new Book(request.JSON)  // JSON verilerini Book domain objesine çevirir.
+        if (book.save(flush: true)) {
+            render book as JSON  // Başarıyla oluşturulan kitabı geri döndürür.
+        } else {
+            render(status: 400, text: "Kitap oluşturulamadı")
         }
     }
 
-    // Update an existing book using JSON request body
+    // 4. PUT - Mevcut bir kitabı güncelleme
     def update(Long id) {
-        try {
-            def updatedBook = bookService.updateBook(id, request.JSON) // Changed to request.JSON
-            if (updatedBook) {
-                respond updatedBook, [formats: ['json']]
+        def book = Book.get(id)
+        if (!book) {
+            render(status: 404, text: "Kitap bulunamadı")
+        } else {
+            book.properties = request.JSON
+            if (book.save(flush: true)) {
+                render book as JSON  // Güncellenmiş kitabı geri döndürür.
             } else {
-                render status: 400, text: "Validation error occurred while updating the book."
+                render(status: 400, text: "Kitap güncellenemedi")
             }
-        } catch (Exception e) {
-            render status: 500, text: "Error occurred while updating the book: ${e.message}"
         }
     }
 
-    // Delete a book by ID
+    // 5. DELETE - Bir kitabı silme
     def delete(Long id) {
-        try {
-            if (bookService.deleteBook(id)) {
-                render status: 204 // No Content
-            } else {
-                render status: 404, text: "Book not found."
-            }
-        } catch (Exception e) {
-            render status: 500, text: "Error occurred while deleting the book: ${e.message}"
+        def book = Book.get(id)
+        if (!book) {
+            render(status: 404, text: "Kitap bulunamadı")
+        } else {
+            book.delete(flush: true)
+            render(status: 204, text: "Kitap silindi")  // Başarıyla silinme durumu.
         }
-    }
-
-    // Render form for creating a new book (optional, can be removed for pure REST API)
-    def create() {
-        respond new Book(), [formats: ['json']]
-    }
-
-    // Render form for editing an existing book (optional, can be removed for pure REST API)
-    def edit(Long id) {
-        try {
-            def book = bookService.getBookById(id)
-            if (book) {
-                respond book, [formats: ['json']]
-            } else {
-                render status: 404, text: "Book not found."
-            }
-        } catch (Exception e) {
-            render status: 500, text: "Error occurred while fetching the book for editing: ${e.message}"
-        }
-    }
-
-    // List all books in a non-RESTful way (optional)
-    def list() {
-        try {
-            def bookList = bookService.listAllBooks()
-            [bookList: bookList]
-        } catch (Exception e) {
-            render status: 500, text: "Error occurred while listing books: ${e.message}"
-        }
-    }
-
-    def options() {
-        // Preflight isteğine yanıt veriyoruz
-        response.setHeader('Access-Control-Allow-Origin', 'http://localhost:3030')
-        response.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
-        response.setHeader('Access-Control-Allow-Headers', 'Content-Type')
-        render status: 200
     }
 }

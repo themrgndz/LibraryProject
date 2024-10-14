@@ -1,23 +1,15 @@
 class UrlMappings {
-
     static mappings = {
-        // Kitaplar için temel işlemler
-        "/MyLibrary/books"(controller: "book", action: "index") // Tüm kitapları listele
-        "/MyLibrary/book"(controller: "book", action: "save") // Yeni bir kitap kaydet
-        "/MyLibrary/book/$id"(controller: "book", action: "show") // Tek bir kitabı göster
-        "/MyLibrary/book/$id/update"(controller: "book", action: "update") // Bir kitabı güncelle
-        "/MyLibrary/book/$id/delete"(controller: "book", action: "delete") // Bir kitabı sil
+        "/"(controller: 'home', action: 'homepage')
+        "/list"(controller: 'home', action: 'list')
+        "/profile"(controller: 'home',action: 'profile')
+        "/detail/$id"(controller: "book", action: "detail")
+        "500"(view:'/error')
 
-        // API Yolları
-        "/MyLibrary/api/books"(controller: "book", action: "index") // API üzerinden tüm kitapları listele
-        "/MyLibrary/api/book"(controller: "book", action: "save") // API üzerinden yeni bir kitap kaydet
-        "/MyLibrary/api/book/$id"(controller: "book", action: "show") // API üzerinden tek bir kitabı göster
-        "/MyLibrary/api/book/$id/update"(controller: "book", action: "update") // API üzerinden bir kitabı güncelle
-        "/MyLibrary/api/book/$id/delete"(controller: "book", action: "delete") // API üzerinden bir kitabı sil
+        "/api/books"(resources: 'book')
+        "/api/books/$id"(controller: 'book', action: [GET: 'show', PUT: 'update', DELETE: 'delete'])
+        "/api/books"(controller: 'book', action: [GET: 'index', POST: 'save'])
+        "/MyLibrary/api/books"(Controller: 'book', action: [GET: 'detail', POST: 'save'])
 
-        // Default
-        "/"(controller: "book", action: "index") // Ana sayfa
-        "500"(view: '/error') // 500 Hatası
-        "404"(view: '/notFound') // 404 Hatası
     }
 }

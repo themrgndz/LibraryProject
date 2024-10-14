@@ -10,7 +10,7 @@
 
 <body>
     <div>
-        asd
+        Boş
     </div>
 </body>
 </html>
