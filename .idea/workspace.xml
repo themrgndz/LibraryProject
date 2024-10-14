@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07366be-1a82-4b71-bf15-4da2c565219b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MyLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyLibrary.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.slcache/.index" beforeDir="false" afterPath="$PROJECT_DIR$/.slcache/.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/mylibrary/CorsFilters.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/controllers/mylibrary/HomeController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/mylibrary/HomeController.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,33 +52,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Grails.Grails: MyLibrary.executor": "Run",
-    "Groovy.BuildConfig.executor": "Run",
-    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
-    "Notification.DoNotAsk-Database detector": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/trgtg/Desktop/Git/LibraryProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.47241378",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Grails.Grails: MyLibrary.executor&quot;: &quot;Run&quot;,
+    &quot;Groovy.BuildConfig.executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
+    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/trgtg/Desktop/Git/LibraryProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.47241378&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver.localdb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver.localdb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\trgtg\Desktop\Grails\MyLibrary\lib" />
@@ -183,6 +184,8 @@
       <workItem from="1728885005618" duration="2017000" />
       <workItem from="1728887420529" duration="1999000" />
       <workItem from="1728890672390" duration="220000" />
+      <workItem from="1728890965067" duration="558000" />
+      <workItem from="1728891596892" duration="3245000" />
     </task>
     <servers />
   </component>

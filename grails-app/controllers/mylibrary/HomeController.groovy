@@ -8,18 +8,26 @@ class HomeController {
         render books as JSON
     }
 
-    // 3. POST - Yeni bir kitap oluşturma
     def save() {
-        def book = new Book(request.JSON)  // JSON verilerini Book domain objesine çevirir.
+        def book = new Book(request.JSON)
         if (book.save(flush: true)) {
-            render book as JSON  // Başarıyla oluşturulan kitabı geri döndürür.
+            render book as JSON
         } else {
             render(status: 400, text: "Kitap oluşturulamadı")
         }
     }
+
+    def detail(Long id) {
+        def book = Book.get(id)
+        if (!book) {
+            render(status: 404, text: "Kitap bulunamadı")
+        } else {
+            render book as JSON
+        }
+    }
     def options() {
         response.status = 200 // 200 OK durumu
-        response.addHeader('Access-Control-Allow-Origin', 'http://localhost:3030')
+        response.addHeader('Access-Control-Allow-Origin', '*')
         response.addHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
         response.addHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With')
     }

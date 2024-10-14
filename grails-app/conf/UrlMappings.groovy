@@ -4,7 +4,7 @@ class UrlMappings {
         "/list"(controller: 'home', action: 'list')
         "/save"(controller: 'home', action: 'save')
         "/profile"(controller: 'home',action: 'profile')
-        "/detail/$id"(controller: "book", action: "detail")
+        "/detail/$id"(controller: "home", action: "detail")
         "500"(view:'/error')
     }
 }
