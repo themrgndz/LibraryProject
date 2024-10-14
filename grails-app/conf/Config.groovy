@@ -2,7 +2,7 @@
 cors.enabled = true
 cors.mappings = [
         '/**': [
-                allowedOrigins: ['http://localhost:3030'], // React uygulamanızın çalıştığı port
+                allowedOrigins: ['*'], // React uygulamanızın çalıştığı port
                 allowedMethods: ['GET', 'POST', 'PUT', 'DELETE'],
                 allowedHeaders: ['*'],
                 exposedHeaders: ['Content-Disposition'],
@@ -98,6 +98,12 @@ environments {
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
 }
+
+// CORS ayarları
+cors.enabled = true
+cors.allowOrigin = '*'
+cors.allowMethods = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+cors.allowHeaders = ['Content-Type', 'Authorization']
 
 // log4j configuration
 log4j.main = {
