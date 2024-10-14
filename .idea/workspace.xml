@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07366be-1a82-4b71-bf15-4da2c565219b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MyLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyLibrary.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.slcache/.index" beforeDir="false" afterPath="$PROJECT_DIR$/.slcache/.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grails-app/conf/mylibrary/CorsFilters.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/controllers/mylibrary/HomeController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/mylibrary/HomeController.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +181,7 @@
       <workItem from="1728890672390" duration="220000" />
       <workItem from="1728890965067" duration="558000" />
       <workItem from="1728891596892" duration="3245000" />
+      <workItem from="1728911844922" duration="3311000" />
     </task>
     <servers />
   </component>

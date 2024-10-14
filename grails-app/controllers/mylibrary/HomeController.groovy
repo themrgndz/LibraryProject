@@ -9,11 +9,11 @@ class HomeController {
     }
 
     def save() {
-        def book = new Book(request.JSON)
-        if (book.save(flush: true)) {
-            render book as JSON
+        def bookInstance = new Book(params)
+        if (!bookInstance.save(flush: true)) {
+            render status: 500, text: 'Failed to save book'
         } else {
-            render(status: 400, text: "Kitap oluşturulamadı")
+            render status: 200, text: 'Book saved successfully'
         }
     }
 

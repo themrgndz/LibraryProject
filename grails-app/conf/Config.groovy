@@ -1,3 +1,5 @@
+grails.plugin.springsecurity.cors.allowedOrigins = ['http://localhost:3030']
+
 // CORS (Cross-Origin Resource Sharing) yapılandırması
 cors.enabled = true
 cors.mappings = [
