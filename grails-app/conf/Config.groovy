@@ -74,8 +74,6 @@ cors {
 grails.json.legacy.builder = false
 // enabled native2ascii conversion of i18n properties files
 grails.enable.native2ascii = true
-// packages to include in Spring bean scanning
-grails.spring.bean.packages = []
 // whether to disable processing of multi part requests
 grails.web.disable.multipart=false
 
@@ -100,12 +98,6 @@ environments {
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
 }
-
-// CORS ayarları
-cors.enabled = true
-cors.allowOrigin = '*'
-cors.allowMethods = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-cors.allowHeaders = ['Content-Type', 'Authorization']
 
 // log4j configuration
 log4j.main = {
