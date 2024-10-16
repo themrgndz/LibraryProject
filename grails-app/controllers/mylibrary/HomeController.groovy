@@ -8,6 +8,13 @@ class HomeController {
         render books as JSON
     }
 
+    def search() {
+        def query = params.query
+        // Arama işlemi: query'ye göre kitapları filtreleyip göster
+        def results = Book.findAllByTitleLike("%${query}%")
+        render(view: 'list', model: [books: results])
+    }
+
     def save() {
         def bookInstance = new Book(params)
         if (!bookInstance.save(flush: true)) {
