@@ -129,7 +129,6 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (MyLibrary)">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/lib" />
           <root url="jar://C:/grails-2.5.6/lib/org.springframework/spring-webmvc/jars/spring-webmvc-4.1.9.RELEASE.jar!/" />
           <root url="jar://C:/grails-2.5.6/lib/org.springframework/spring-context-support/jars/spring-context-support-4.1.9.RELEASE.jar!/" />
           <root url="jar://C:/grails-2.5.6/dist/grails-web-jsp-2.5.6.jar!/" />
@@ -271,6 +270,7 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/7.0.70/tomcat-embed-websocket-7.0.70.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/7.0.70/tomcat-embed-el-7.0.70.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.70/tomcat-embed-jasper-7.0.70.jar!/" />
+          <root url="file://$MODULE_DIR$/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>

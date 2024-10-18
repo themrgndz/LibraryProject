@@ -4,15 +4,36 @@ import grails.converters.JSON
 
 class BookController {
 
-    // 1. GET - Tüm kitapları listeleme
-    def index() {
-        def books = Book.list()  // Book domain sınıfından tüm kitapları getirir.
-        render books as JSON     // JSON formatında yanıt verir.
+    BookService bookService
+
+    def list() {
+        def books = bookService.listBooks()
+        render books as JSON
     }
 
-    // 2. GET - ID ile bir kitabı bulma
-    def show(Long id) {
-        def book = Book.get(id)
+    def search() {
+        def query = params.query
+        // Arama işlemi: query'ye göre kitapları filtreleyip göster
+        def results = bookService.searchBooks(query)
+        render(view: 'list', model: [books: results])
+    }
+
+    def save() {
+        try {
+            def result = bookService.saveBook(request.JSON as Map)  // Servis katmanına veriyi gönder
+
+            if (!result.success) {
+                render status: 400, json: [message: 'Book save failed', errors: result.errors]
+            } else {
+                render status: 200, json: [message: 'Book saved successfully', book: result.book]
+            }
+        } catch (Exception e) {
+            render status: 500, json: [message: 'An error occurred: ' + e.message]
+        }
+    }
+
+    def detail(Long id) {
+        def book = bookService.getBook(id)
         if (!book) {
             render(status: 404, text: "Kitap bulunamadı")
         } else {
@@ -20,39 +41,27 @@ class BookController {
         }
     }
 
-    // 3. POST - Yeni bir kitap oluşturma
-    def save() {
-        def book = new Book(request.JSON)  // JSON verilerini Book domain objesine çevirir.
-        if (book.save(flush: true)) {
-            render book as JSON  // Başarıyla oluşturulan kitabı geri döndürür.
-        } else {
-            render(status: 400, text: "Kitap oluşturulamadı")
-        }
-    }
-
-    // 4. PUT - Mevcut bir kitabı güncelleme
     def update(Long id) {
-        def book = Book.get(id)
-        if (!book) {
-            render(status: 404, text: "Kitap bulunamadı")
+        def bookInstance = bookService.updateBook(id, params)
+        if (!bookInstance) {
+            render status: 404, text: "Kitap bulunamadı veya güncelleme başarısız oldu"
         } else {
-            book.properties = request.JSON
-            if (book.save(flush: true)) {
-                render book as JSON  // Güncellenmiş kitabı geri döndürür.
-            } else {
-                render(status: 400, text: "Kitap güncellenemedi")
-            }
+            render status: 200, text: 'Book updated successfully'
         }
     }
 
-    // 5. DELETE - Bir kitabı silme
     def delete(Long id) {
-        def book = Book.get(id)
-        if (!book) {
-            render(status: 404, text: "Kitap bulunamadı")
+        if (bookService.deleteBook(id)) {
+            render status: 200, text: 'Book deleted successfully'
         } else {
-            book.delete(flush: true)
-            render(status: 204, text: "Kitap silindi")  // Başarıyla silinme durumu.
+            render status: 404, text: 'Kitap bulunamadı'
         }
+    }
+
+    def options() {
+        response.status = 200 // 200 OK durumu
+        response.addHeader('Access-Control-Allow-Origin', '*')
+        response.addHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
+        response.addHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With')
     }
 }

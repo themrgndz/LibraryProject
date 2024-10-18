@@ -5,22 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07366be-1a82-4b71-bf15-4da2c565219b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MyLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyLibrary.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.slcache/.index" beforeDir="false" afterPath="$PROJECT_DIR$/.slcache/.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1003w-byiM1lwz9y0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1003w-h1wRXxi71eg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1003w-mfPVe9UxMO0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1003w-tpBdl9y5rlw.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1024w-Ud9dNR2wsng.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1024w-Wcatv-Oosb0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asdf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canva-cadı-kitap-kapağı-_O41H90NVvU.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grails-app/conf/mylibrary/MyCorsFilters.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grails-app/services/TestService.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/mylibrary/BookController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/mylibrary/BookController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/mylibrary/HomeController.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/domain/mylibrary/Book.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/domain/mylibrary/Book.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1$_closure2$_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1$_closure2$_closure3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1$_closure2$_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1$_closure2$_closure4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1$_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1$_closure2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1$_closure2$_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1$_closure2$_closure3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1$_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1$_closure2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/User$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/User$__clinit__closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/Users.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/AdminControllerSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/ApiControllerSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/BookControllerSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/BookSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/BooksSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/CategorySpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/CorsFilterFiltersSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/CorsFiltersSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/HomeControllerSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/KitapControllerSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/KitapSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/MyCorsFiltersSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/RoleSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/UserControllerSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/UserSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/UsersSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/YeniKullaniciSpec.groovy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +246,8 @@
       <workItem from="1729078242438" duration="617000" />
       <workItem from="1729082865108" duration="2383000" />
       <workItem from="1729141195451" duration="2059000" />
+      <workItem from="1729164304448" duration="8752000" />
+      <workItem from="1729227928184" duration="11185000" />
     </task>
     <servers />
   </component>
@@ -221,7 +265,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="-387329976" />
-              <option name="pluginDependenciesCrc" value="1682136675" />
+              <option name="pluginDependenciesCrc" value="-747976210" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="C:\Users\trgtg\.grails\2.5.6\global-plugins" />

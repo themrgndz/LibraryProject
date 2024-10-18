@@ -20,8 +20,9 @@ environments {
             username = "sa"
             password = "sa123"
 
-            url = "jdbc:jtds:sqlserver://localhost:1433/Library"
-            driverClassName = "net.sourceforge.jtds.jdbc.Driver"
+            //url = "jdbc:jtds:sqlserver://localhost:1433/Library"
+            url = "jdbc:sqlserver://localhost:1433;databaseName=Library"
+            driverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
         }
 
         hibernate {

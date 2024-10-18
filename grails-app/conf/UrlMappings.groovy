@@ -1,30 +1,25 @@
 class UrlMappings {
     static mappings = {
         // Homepage
-        "/"(controller: 'home', action: 'list')
+        "/"(controller: 'book', action: 'list')
 
         // List
-        "/list"(controller: 'home', action: 'list')
-        "/list/search"(controller: 'home', action: 'search')
-
-        // List
-        "/api/list"(controller: 'home', action: 'list')
-        "/api/save"(controller: 'home', action: 'save')
-
-        // Save
-        "/save"(controller: 'home', action: 'save')
-
-        // Profile
-        "/profile"(controller: 'home', action: 'profile')
+        "/list"(controller: 'book', action: 'list')
+        "/list/search"(controller: 'book', action: 'search')
 
         // Detail
-        "/detail/$id"(controller: 'home', action: 'detail')
+        "/detail/$id"(controller: 'book', action: 'detail')
+
+        // API Routes
+        "/api/books"(controller: 'book', action: 'list') // Tüm kitapları listele
+        "/api/books/search"(controller: 'book', action: 'search') // Kitap arama
+        "/api/books"(controller: 'book', action: 'save') // Yeni kitap kaydet
+        "/api/books/$id"(controller: 'book', action: [GET: 'detail', PUT: 'update', DELETE: 'delete']) // ID'ye göre kitap işlemleri
+
+        // Profile
+        "/profile"(controller: 'book', action: 'profile')
 
         // Error
         "500"(view:'/error')
-
-        // API Routes
-        "/api/list/$id"(controller: 'book', action: [GET: 'show', PUT: 'update', DELETE: 'delete']) // ID'ye göre kitap işlemleri
-
     }
 }

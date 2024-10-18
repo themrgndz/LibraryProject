@@ -98,7 +98,19 @@ environments {
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
 }
+log4j = {
+    appenders {
+        console name: 'stdout', layout: pattern(conversionPattern: '%c{2} %m%n')
+        file name: 'file', file: 'app.log', layout: pattern(conversionPattern: '%c{2} %m%n')
+    }
 
+    root {
+        info 'stdout', 'file'
+        additivity = true
+    }
+
+    debug 'com.mylibrary.package' // Hangi paketlerin loglanacağını belirleyin
+}
 // log4j configuration
 log4j.main = {
 
