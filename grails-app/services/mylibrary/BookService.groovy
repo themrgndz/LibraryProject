@@ -7,16 +7,18 @@ import javax.xml.bind.ValidationException
 @Transactional
 class BookService {
 
+    // Tüm kitapları listeler
     def listBooks() {
         return Book.list()
     }
 
+    // Kitap araması yapar
     def searchBooks(String query) {
         return Book.findAllByTitleLike("%${query}%")
     }
 
+    // Yeni kitap kaydeder
     def saveBook(Map bookData) {
-        
         log.info("\nVeri alındı: ${bookData}\n")
 
         // Gelen veride eksik veya boş alanlar olup olmadığını kontrol et
@@ -28,7 +30,6 @@ class BookService {
         try {
             def bookInstance = new Book(bookData)
 
-            // Eğer veri domain modelindeki kısıtlamaları sağlamıyorsa
             if (!bookInstance.save(flush: true)) {
                 log.error("Kitap kaydedilemedi: ${bookInstance.errors}")
                 return [success: false, errors: bookInstance.errors, status: 400]
@@ -46,28 +47,39 @@ class BookService {
         }
     }
 
+    // ID'ye göre kitap detayını getirir
     def getBook(Long id) {
         return Book.get(id)
     }
 
+    // Kitap bilgilerini günceller
     def updateBook(Long id, Map params) {
         def bookInstance = Book.get(id)
         if (bookInstance) {
-            bookInstance.properties = params
-            if (!bookInstance.save(flush: true)) {
-                return null // Güncelleme başarısız oldu
+            try {
+                bookInstance.properties = params
+                if (!bookInstance.save(flush: true)) {
+                    return [success: false, errors: bookInstance.errors]
+                }
+                return [success: true, book: bookInstance]
+            } catch (Exception e) {
+                return [success: false, message: e.message]
             }
-            return bookInstance
         }
-        return null
+        return [success: false, message: "Kitap bulunamadı"]
     }
 
+    // Kitap siler
     def deleteBook(Long id) {
         def bookInstance = Book.get(id)
         if (bookInstance) {
-            bookInstance.delete(flush: true)
-            return true
+            try {
+                bookInstance.delete(flush: true)
+                return [success: true]
+            } catch (Exception e) {
+                return [success: false, message: e.message]
+            }
         }
-        return false
+        return [success: false, message: "Kitap bulunamadı"]
     }
 }

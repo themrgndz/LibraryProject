@@ -40,18 +40,7 @@
       <configuration>
         <webroots>
           <root url="file://$MODULE_DIR$/web-app" relative="/" />
-          <root url="file://$MODULE_DIR$/grails-app/views" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/java" />
-          <root url="file://$MODULE_DIR$/grails-app/utils" />
-          <root url="file://$MODULE_DIR$/src/groovy" />
-          <root url="file://$MODULE_DIR$/grails-app/i18n" />
-          <root url="file://$MODULE_DIR$/grails-app/controllers" />
-          <root url="file://$MODULE_DIR$/grails-app/domain" />
-          <root url="file://$MODULE_DIR$/grails-app/services" />
-          <root url="file://$MODULE_DIR$/grails-app/taglib" />
-        </sourceRoots>
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
@@ -109,12 +98,6 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-build-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-classes" />
@@ -270,7 +253,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/7.0.70/tomcat-embed-websocket-7.0.70.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/7.0.70/tomcat-embed-el-7.0.70.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.70/tomcat-embed-jasper-7.0.70.jar!/" />
-          <root url="file://$MODULE_DIR$/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -319,7 +301,6 @@
           <root url="jar://C:/grails-2.5.6/dist/grails-docs-2.5.6-sources.jar!/" />
           <root url="jar://C:/grails-2.5.6/dist/grails-scripts-2.5.6-sources.jar!/" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="MyLibrary-grailsPlugins" />

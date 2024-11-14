@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse
 class CorsFilters {
 
     def filters = {
-        all(uri: "/**") { // Tüm URI'lar için filtre uygula
+        all(uri: "/**") {
             before = {
                 if (request instanceof HttpServletRequest) {
                     HttpServletResponse response = (HttpServletResponse) response

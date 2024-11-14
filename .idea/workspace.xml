@@ -6,63 +6,669 @@
   <component name="ChangeListManager">
     <list default="true" id="f07366be-1a82-4b71-bf15-4da2c565219b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/MyLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.slcache/.index" beforeDir="false" afterPath="$PROJECT_DIR$/.slcache/.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1003w-byiM1lwz9y0.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1003w-h1wRXxi71eg.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1003w-mfPVe9UxMO0.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1003w-tpBdl9y5rlw.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1024w-Ud9dNR2wsng.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1024w-Wcatv-Oosb0.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asdf.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canva-cadı-kitap-kapağı-_O41H90NVvU.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/CorsFilters.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/CorsFilters.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/mylibrary/AdminController.groovy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/controllers/mylibrary/BookController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/mylibrary/BookController.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grails-app/controllers/mylibrary/HomeController.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grails-app/domain/mylibrary/Book.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/domain/mylibrary/Book.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/services/mylibrary/BookService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/services/mylibrary/BookService.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/Admin/Admin.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/Book/Detail.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/Book/index.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/error.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/home/Homepage.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/home/Login.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/home/Profile.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/home/index.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AnasayfaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Author$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Book$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Category$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure4$_closure5$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure4$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure4$_closure6$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure4$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5$_closure6$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure6$_closure7$_closure8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure6$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure6.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure5$_closure6$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure5$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure9.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4$_closure11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4$_closure12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure5.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CorsFilter$_closure1$_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CorsFilter$_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CorsFilter$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CorsFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CorsFilters$_closure1$_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CorsFilters$_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CorsFilters$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CorsFilters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4$_closure5$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4$_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4$_closure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4$_closure6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4$_closure6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure5$_closure8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure6$_closure9$_closure10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure6$_closure9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GirisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kategori$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kategori.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kitap$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kitap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KitapService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kullanici$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kullanici.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KullaniciRol$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KullaniciRol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyCorsFilters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Publisher$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Publisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Reservation$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rezervasyon$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rezervasyon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rol$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Role$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1$_closure2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/User$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserRole$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yayinci$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yayinci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yazar$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yazar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yonetici$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yonetici.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/YoneticiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/Kullanici$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/Kullanici$__clinit__closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/Kullanici.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/KullaniciRol$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/KullaniciRol$__clinit__closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/KullaniciRol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/Rol$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/Rol$__clinit__closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/uzmar/library/Rol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kitapController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookController$_save_closure1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookService$_detail_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookService$_list_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookService$_options_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookService$_save_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookService$_search_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookService$_serviceMethod_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Books$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Books.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Borrowing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/Borrowing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilterFilters$_closure1$_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilterFilters$_closure1$_closure2$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilterFilters$_closure1$_closure2$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilterFilters$_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilterFilters$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilterFilters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1$_closure2$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/CorsFilters$_closure1$_closure2$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/HomeController$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1$_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1$_closure2$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1$_closure2$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/MyCorsFilters.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/User$__clinit__closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/User$__clinit__closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/User$__clinit__closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/UserController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mylibrary/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylibrary/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure15$_closure32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure15$_closure33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure16$_closure34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1$_closure9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_addControllerMethods_closure19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_addControllerMethods_closure20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_addControllerMethods_closure21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure1$_closure24$_closure27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure1$_closure24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure1$_closure25$_closure28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure1$_closure25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure1$_closure26$_closure29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure1$_closure26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure10$_closure69.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure10$_closure70.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure10$_closure71.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure10$_closure72.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure11$_closure73.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure11$_closure74.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure11$_closure75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure11$_closure76.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure12$_closure77.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure13$_closure78.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure14$_closure79.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure14$_closure80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure14$_closure81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure14$_closure82.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure14$_closure83.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure14$_closure84.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure14$_closure85.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure15$_closure86.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure16$_closure87.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure16$_closure88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure16$_closure89.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure16$_closure90.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure16$_closure91.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure16$_closure92.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure17$_closure93.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure17$_closure94.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure17$_closure95.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure18$_closure96.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure18$_closure97.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure38.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure39.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure40.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure41.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure42.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure43.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure44.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure45.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure46.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure47.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure48.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure49.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure50.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure51.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure52.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure53.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure54.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure55.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure56.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2$_closure57.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure4$_closure58.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure4$_closure59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure4$_closure60$_closure61.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure4$_closure60.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure7$_closure62.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure8$_closure63.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure8$_closure64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure8$_closure65.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure9$_closure66.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure9$_closure67.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure9$_closure68.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_closure9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_createBeanList_closure22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin$_findFilterChainNames_closure23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/work/resources/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/AdminControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/ApiControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/BookControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/BookSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/BooksSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/CategorySpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/CorsFilterFiltersSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/CorsFiltersSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/HomeControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/KitapControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/KitapSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/MyCorsFiltersSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/RoleSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/UserControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/UserSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/UsersSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/mylibrary/YeniKullaniciSpec.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/CryptoEncoderWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/InterceptedUrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils$_loadAllRequestmaps_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils$_requestmapClassSupportsHttpMethod_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils$_splitMap_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityConfigType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityFilterPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$__clinit__closure14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib$_closure9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService$_createRequestMaps_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService$_createRequestMaps_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService$_deleteRole_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService$_findRequestmapsByRole_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService$_getCurrentUser_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService$_reloadDBRoleHierarchy_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService$_updateRole_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/access/NullAfterInvocationProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/access/intercept/NullAfterInvocationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/access/vote/AuthenticatedVetoableDecisionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/access/vote/ClosureConfigAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/access/vote/ClosureVoter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/annotation/Authorities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/annotation/AuthoritiesTransformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/annotation/Secured.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/annotation/SecuredClosureDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/authentication/GrailsAnonymousAuthenticationProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/authentication/GrailsAnonymousAuthenticationToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/authentication/NullAuthenticationEventPublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/authentication/dao/NullSaltSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/authentication/encoding/BCryptPasswordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/authentication/encoding/DigestAuthPasswordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/authentication/encoding/PBKDF2PasswordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/DefaultPostAuthenticationChecks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/DefaultPreAuthenticationChecks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService$_loadAuthorities_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService$_loadAuthorities_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService$_loadAuthorities_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService$_loadUserByUsername_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GrailsUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GrailsUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/NoStackUsernameNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/GrailsRedirectStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/NullFilterChainValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/SecurityRequestHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/SecurityRequestHolderFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/SecurityRequestHolderFilter$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/SecurityRequestHolderFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/AjaxAwareAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/DefaultThrowableAnalyzer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/DefaultThrowableAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/DummyRequestCreator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/DummyRequestCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/DummyResponseCreator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/DummyResponseCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/GrailsWebInvocationPrivilegeEvaluator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/GrailsWebInvocationPrivilegeEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/expression/WebExpressionConfigAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/expression/WebExpressionVoter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/intercept/AbstractFilterInvocationDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/intercept/AnnotationFilterInvocationDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/intercept/ChannelFilterInvocationSecurityMetadataSourceFactoryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/intercept/InterceptUrlMapFilterInvocationDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/access/intercept/RequestmapFilterInvocationDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/AjaxAwareAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/AjaxAwareAuthenticationFailureHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/AjaxAwareAuthenticationSuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/FilterProcessUrlRequestMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/GrailsUsernamePasswordAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/NullLogoutHandlerRememberMeServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/logout/MutableLogoutFilter$DummyLogoutHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/logout/MutableLogoutFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/preauth/x509/ClosureX509PrincipalExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository$_createNewToken_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository$_getTokenForSeries_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository$_removeUserTokens_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository$_updateToken_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/switchuser/NullSwitchUserAuthorityChanger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/filter/DebugFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/filter/DebugFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/filter/GrailsAnonymousAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/filter/GrailsRememberMeAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/filter/IpAddressFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/AssetPipelineGrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/AssetPipelineGrailsPlugin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/full-tree/full_tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/full-tree/full_tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/not-included/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/not-included/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/test/test_full_tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/test/test_full_tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/test/test_tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/test/test_tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/tree/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/tree/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/gstringtest.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/gstringtest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/gstringtest2.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/gstringtest2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/subset/subset_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/subset/subset_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test2.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test_full_tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test_full_tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test_multiple_file_directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test_multiple_file_directive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/conf/AssetPipelineBootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/conf/AssetPipelineBootStrap.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/services/asset/pipeline/grails/AssetProcessorService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/services/asset/pipeline/grails/AssetProcessorService.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/taglib/asset/pipeline/grails/AssetMethodTagLib.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/taglib/asset/pipeline/grails/AssetMethodTagLib.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/taglib/asset/pipeline/grails/AssetsTagLib.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/taglib/asset/pipeline/grails/AssetsTagLib.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/AssetClean.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/AssetClean.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/AssetPrecompile.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/AssetPrecompile.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_AssetCompile.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_AssetCompile.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_Events.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_Events.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_Install.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_Install.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/configuration.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/configuration.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/assetfile.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/assetfile.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/postprocessors.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/postprocessors.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/processors.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/processors.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/introduction.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/introduction.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/releases.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/releases.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/releases/rel2.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/releases/rel2.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/toc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/toc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/directives.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/directives.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/encoding.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/encoding.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/linking.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/linking.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/organization.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/organization.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-clean.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-clean.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-compile.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-compile.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-precompile.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-precompile.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Spring Beans/assetResourceLocator.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Spring Beans/assetResourceLocator.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/assetPath.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/assetPath.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/assetPathExists.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/assetPathExists.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/deferredScripts.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/deferredScripts.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/image.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/image.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/javascript.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/javascript.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/link.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/link.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/script.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/script.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/stylesheet.gdoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/stylesheet.gdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetPipelineFilter.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetPipelineFilter.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetResourceLocator.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetResourceLocator.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/CachingLinkGenerator.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/CachingLinkGenerator.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/LinkGenerator.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/LinkGenerator.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/ProductionAssetCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/ProductionAssetCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/EmptyResource.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/EmptyResource.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/SpringAssetCache.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/SpringAssetCache.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/SpringResourceAssetResolver.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/SpringResourceAssetResolver.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/CacheGrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/CacheGrailsPlugin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/conf/DefaultCacheConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/conf/DefaultCacheConfig.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/services/grails/plugin/cache/GrailsCacheAdminService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/services/grails/plugin/cache/GrailsCacheAdminService.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/taglib/grails/plugin/cache/CacheTagLib.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/taglib/grails/plugin/cache/CacheTagLib.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/groovy/grails/plugin/cache/ConfigBuilder.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/groovy/grails/plugin/cache/ConfigBuilder.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/groovy/grails/plugin/cache/ConfigLoader.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/groovy/grails/plugin/cache/ConfigLoader.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/BlockingCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/BlockingCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheConfigArtefactHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheConfigArtefactHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheEvict.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheEvict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CachePut.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CachePut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/Cacheable.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/Cacheable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CustomCacheKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CustomCacheKeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsAnnotationCacheOperationSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsAnnotationCacheOperationSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsCacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsCacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsConcurrentMapCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsConcurrentMapCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsConcurrentMapCacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsConcurrentMapCacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsValueWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsValueWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SerializableByteArrayOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SerializableByteArrayOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SerializableOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SerializableOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SimpleKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SimpleKeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/compiler/CacheTransformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/compiler/CacheTransformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/util/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/util/ClassUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/AlreadyGzippedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/AlreadyGzippedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/ContentCacheParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/ContentCacheParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/GenericResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/GenericResponseWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/HttpDateFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/HttpDateFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/PageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/PageInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/SerializableCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/SerializableCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/AbstractFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/AbstractFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/CacheExpressionRootObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/CacheExpressionRootObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/CacheOperationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/CacheOperationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/ExpressionEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/ExpressionEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/NoOpFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/NoOpFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/WebKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/WebKeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/DatabaseMigrationGrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/DatabaseMigrationGrailsPlugin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/conf/DbdocUrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/conf/DbdocUrlMappings.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/controllers/grails/plugin/databasemigration/DbdocController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/grails-app/controllers/grails/plugin/databasemigration/DbdocController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/DbmChangelogToGroovy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/DbmChangelogToGroovy.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/DbmDiff.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/DbmDiff.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/_DatabaseMigrationCommon.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/_DatabaseMigrationCommon.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/_Events.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/_Events.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/_Install.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/scripts/_Install.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/ChangelogXml2Groovy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/ChangelogXml2Groovy.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/DslBuilder.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/DslBuilder.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormColumn.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormColumn.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormDatabase.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormDatabase.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormDatabaseTypeConverter.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormDatabaseTypeConverter.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormDiff.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GormDiff.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsChange.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsChange.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsChangeLogParser.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsChangeLogParser.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsDiffStatusListener.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsDiffStatusListener.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsPrecondition.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GrailsPrecondition.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/HibernateAwareTypeConverter.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/HibernateAwareTypeConverter.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/MigrationRunner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/MigrationRunner.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/MigrationUtils.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/MigrationUtils.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/NoopVisitor.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/NoopVisitor.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/ScriptUtils.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/ScriptUtils.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/Slf4jLogger.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/Slf4jLogger.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/groovy/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/resources/changelog.template" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0/src/resources/changelog.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/Hibernate4GrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/Hibernate4GrailsPlugin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/scripts/CreateHibernateCfgXml.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/scripts/CreateHibernateCfgXml.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/scripts/SchemaExport.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/scripts/SchemaExport.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/src/java/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/src/java/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/JqueryGrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/JqueryGrailsPlugin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/dependencies.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/dependencies.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/assets/javascripts/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/assets/javascripts/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/conf/JQueryConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/conf/JQueryConfig.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/conf/JQueryPluginResources.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/conf/JQueryPluginResources.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/services/JQueryService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/services/JQueryService.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/taglib/JQueryResourceTagLib.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/taglib/JQueryResourceTagLib.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/taglib/JQueryTagLib.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/grails-app/taglib/JQueryTagLib.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/scripts/InstallJQuery.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/scripts/InstallJQuery.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/src/groovy/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/src/groovy/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/src/groovy/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/src/groovy/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1/web-app/js/jquery/jquery-1.11.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/ScaffoldingGrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/ScaffoldingGrailsPlugin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/CreateScaffoldController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/CreateScaffoldController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateAll.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateAll.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateAsyncController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateAsyncController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateRestfulController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateRestfulController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateViews.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateViews.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/_Events.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/_Events.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/_GrailsGenerate.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/_GrailsGenerate.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/groovy/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/groovy/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/DomainClassPropertyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/DomainClassPropertyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/GrailsTemplateGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/GrailsTemplateGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/SimpleDomainClassPropertyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/SimpleDomainClassPropertyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/view/ScaffoldedGroovyPageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/view/ScaffoldedGroovyPageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/view/ScaffoldingViewResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/view/ScaffoldingViewResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/artifacts/ScaffoldingController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/artifacts/ScaffoldingController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/AsyncController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/AsyncController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/AsyncSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/AsyncSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/Controller.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/Controller.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/RestfulController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/RestfulController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/RestfulSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/RestfulSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/Spec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/Spec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/_form.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/_form.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/create.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/create.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/edit.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/edit.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/index.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/index.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/renderEditor.template" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/renderEditor.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/show.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/show.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/TomcatGrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/TomcatGrailsPlugin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/scripts/Tomcat.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/scripts/Tomcat.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/scripts/_Events.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/scripts/_Events.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/InlineExplodedTomcatServer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/InlineExplodedTomcatServer.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/TomcatLoader.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/TomcatLoader.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/TomcatServer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/TomcatServer.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/TomcatServerFactory.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/TomcatServerFactory.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/fork/ForkedTomcatServer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/fork/ForkedTomcatServer.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/fork/TomcatExecutionContext.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/fork/TomcatExecutionContext.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/fork/TomcatWarRunner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/groovy/org/grails/plugins/tomcat/fork/TomcatWarRunner.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/java/org/grails/plugins/tomcat/ParentDelegatingClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/java/org/grails/plugins/tomcat/ParentDelegatingClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/java/org/grails/plugins/tomcat/TomcatKillSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.70/src/java/org/grails/plugins/tomcat/TomcatKillSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/WebxmlGrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/WebxmlGrailsPlugin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/dependencies.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/dependencies.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/scripts/CreateWebXmlConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/scripts/CreateWebXmlConfig.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/scripts/_Events.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/scripts/_Events.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/groovy/grails/plugin/webxml/FilterManager.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/groovy/grails/plugin/webxml/FilterManager.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_cs_CZ.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_da.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_ja.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_nb.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_nl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_pl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_pt_BR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_pt_PT.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_sv.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_th.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_ja.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_nb.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_pt_BR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/plugins/spring-security-core-2.0.0/grails-app/i18n/spring-security-core_sv.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/resources/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/scriptCache/LinkedProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/scriptCache/ListEnumeration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +717,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/trgtg/Desktop/Git/LibraryProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/trgtg/Desktop/Emre&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.47241378&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -248,6 +854,8 @@
       <workItem from="1729141195451" duration="2059000" />
       <workItem from="1729164304448" duration="8752000" />
       <workItem from="1729227928184" duration="11185000" />
+      <workItem from="1731561696695" duration="187000" />
+      <workItem from="1731561891095" duration="59000" />
     </task>
     <servers />
   </component>

@@ -1,25 +1,25 @@
 class UrlMappings {
     static mappings = {
-        // Homepage
-        "/"(controller: 'book', action: 'list')
-
-        // List
-        "/list"(controller: 'book', action: 'list')
-        "/list/search"(controller: 'book', action: 'search')
-
-        // Detail
-        "/detail/$id"(controller: 'book', action: 'detail')
-
         // API Routes
-        "/api/books"(controller: 'book', action: 'list') // Tüm kitapları listele
-        "/api/books/search"(controller: 'book', action: 'search') // Kitap arama
-        "/api/books"(controller: 'book', action: 'save') // Yeni kitap kaydet
-        "/api/books/$id"(controller: 'book', action: [GET: 'detail', PUT: 'update', DELETE: 'delete']) // ID'ye göre kitap işlemleri
+        
+        // GET /api/books - Tüm kitapları listeler
+        "/api/books"(controller: 'book', action: 'list', method: 'GET')
+        
+        // POST /api/books - Yeni kitap ekler
+        "/api/books"(controller: 'book', action: 'save', method: 'POST')
+        
+        // GET /api/books/search - Kitap araması yapar
+        "/api/books/search"(controller: 'book', action: 'search')
+        
+        // GET /api/books/{id} - ID'ye göre kitap detayını getirir
+        "/api/books/$id"(controller: 'book', action: 'detail', method: 'GET')
+        
+        // PUT /api/books/{id} - ID'ye göre kitap bilgilerini günceller
+        "/api/books/$id"(controller: 'book', action: 'update', method: 'PUT') 
+        
+        // DELETE /api/books/{id} - ID'ye göre kitabı siler
+        "/api/books/$id"(controller: 'book', action: 'delete', method: 'DELETE')
 
-        // Profile
-        "/profile"(controller: 'book', action: 'profile')
-
-        // Error
         "500"(view:'/error')
     }
 }
